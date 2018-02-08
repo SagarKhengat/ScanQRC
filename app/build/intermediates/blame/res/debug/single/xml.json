@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/xml/pref_scanner.xml",
+        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/xml/pref_scanner.xml"
+    },
+    {
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/xml/pref_headers.xml"
+    }
+]
