@@ -41,13 +41,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="khengat.sagar.scanqrc.activities.MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="khengat.sagar.scanqrc.activities.generator.GenerateActivity"
             android:label="@string/activity_generate"
@@ -119,6 +113,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="khengat.sagar.scanqrc.activities.generator.GenerateActivity" />
         </activity>
+        <activity android:name="khengat.sagar.scanqrc.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="khengat.sagar.scanqrc.Register" />
+        <activity android:name="khengat.sagar.scanqrc.LoginActivity" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"
