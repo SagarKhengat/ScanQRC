@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+        "outputFile": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/res/values-eu/values-eu.xml",
+                    "file": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\values-eu\\values-eu.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "/home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/res/values-eu/values-eu.xml",
+                    "file": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\values-eu\\values-eu.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 311
                 },
                 "from": {
-                    "file": "/home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/res/values-eu/values-eu.xml",
+                    "file": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\values-eu\\values-eu.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 423
                 },
                 "from": {
-                    "file": "/home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/res/values-eu/values-eu.xml",
+                    "file": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\values-eu\\values-eu.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

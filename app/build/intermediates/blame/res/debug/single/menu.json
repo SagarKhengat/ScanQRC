@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/menu/history_action_navigation.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/menu/history_action_navigation.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_action_navigation.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\menu\\main_action_navigation.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/menu/navigation.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/menu/navigation.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\optionsmenu.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\menu\\optionsmenu.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/menu/optionsmenu.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/menu/optionsmenu.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\menu\\navigation.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/menu/main_action_navigation.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/menu/main_action_navigation.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\history_action_navigation.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\menu\\history_action_navigation.xml"
     }
 ]

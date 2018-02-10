@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/xml/pref_scanner.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/xml/pref_scanner.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_scanner.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_scanner.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/xml/pref_headers.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/xml/pref_headers.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_headers.xml"
     }
 ]

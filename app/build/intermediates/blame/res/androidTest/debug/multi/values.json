@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/sagar/.android/build-cache/8e074dd6ef000e5af1b8210da83bccf0d8ed31eb/output/res/values/values.xml",
+                    "file": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\62cf1fe4f4d278d349dc5650ba740e8fb4cfbe54\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
