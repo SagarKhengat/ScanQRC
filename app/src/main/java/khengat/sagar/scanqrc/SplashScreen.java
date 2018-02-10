@@ -46,7 +46,7 @@ public class SplashScreen extends Activity {
                 //If we will get true
                 if(loggedIn){
                     //We will start the Profile Activity
-                    Intent intent = new Intent(SplashScreen.this, khengat.sagar.scanqrc.activities.MainActivity.class);
+                    Intent intent = new Intent(SplashScreen.this, StoreListing.class);
                     startActivity(intent);
 
                     finish();

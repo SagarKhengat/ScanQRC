@@ -1,6 +1,5 @@
 package khengat.sagar.scanqrc;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -12,38 +11,11 @@ import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.HashMap;
-import java.util.regex.Pattern;
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
-
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.HashMap;
-import java.util.regex.Pattern;
 
 import khengat.sagar.scanqrc.Constants.Config;
-import khengat.sagar.scanqrc.activities.*;
+import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.DatabaseHelper;
 import khengat.sagar.scanqrc.util.InputValidation;
 
@@ -63,7 +35,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private AppCompatTextView textViewLinkRegister;
 
     private InputValidation inputValidation;
-    private DatabaseHelper databaseHelper;
+    private DatabaseHandler databaseHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,7 +79,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
      * This method is to initialize objects to be used
      */
     private void initObjects() {
-        databaseHelper = new DatabaseHelper(activity);
+        databaseHelper = new DatabaseHandler(activity);
         inputValidation = new InputValidation(activity);
 
     }
@@ -127,6 +99,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 // Navigate to RegisterActivity
                 Intent intentRegister = new Intent(getApplicationContext(), Register.class);
                 startActivity(intentRegister);
+                finish();
                 break;
         }
     }
@@ -160,10 +133,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                         //Saving values to editor
                         editor.apply();
-            Intent accountsIntent = new Intent(activity, khengat.sagar.scanqrc.activities.MainActivity.class);
+            Intent accountsIntent = new Intent(activity, StoreListing.class);
             accountsIntent.putExtra("EMAIL", textInputEditTextEmail.getText().toString().trim());
             emptyInputEditText();
             startActivity(accountsIntent);
+            finish();
 
 
         } else {

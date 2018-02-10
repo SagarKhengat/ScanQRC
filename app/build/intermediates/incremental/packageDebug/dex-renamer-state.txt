@@ -1,4 +1,7 @@
-#Fri Feb 09 12:53:37 IST 2018
-base.0=/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sat Feb 10 16:00:25 IST 2018
+base.0=E\:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a5a5d758f5e44e7ad52cc4ef811225a3b311bbfb
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=E\:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b90ae38b417554d66a58e8316553ee1986e4280a\\classes.dex
+base.1=E\:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b90ae38b417554d66a58e8316553ee1986e4280a
+file.0=E\:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a5a5d758f5e44e7ad52cc4ef811225a3b311bbfb\\classes.dex

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="khengat.sagar.scanqrc.StoreListing">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/txtArea"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.00"
+        android:text="Select Area"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinnerArea"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="0.00" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabArea"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="top|right"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_add_white_24dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/txtStore"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.00"
+        android:text="Select Store"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinnerStore"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="0.00" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabStore"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="top|right"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_add_white_24dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabGo"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="top|right"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+</LinearLayout>

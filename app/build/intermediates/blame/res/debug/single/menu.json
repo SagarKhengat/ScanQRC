@@ -8,6 +8,10 @@
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\menu\\optionsmenu.xml"
     },
     {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\store_menu.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\menu\\store_menu.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\menu\\navigation.xml"
     },

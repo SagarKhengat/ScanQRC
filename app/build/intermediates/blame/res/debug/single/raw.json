@@ -6,5 +6,9 @@
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copyright",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\raw\\copyright"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ormlite_config.txt",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\raw\\ormlite_config.txt"
     }
 ]

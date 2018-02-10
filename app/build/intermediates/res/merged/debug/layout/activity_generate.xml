@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhiteBackground"
-    tools:context="de.t_dankworth.scanqrc.activities.generator.GenerateActivity">
+    tools:context="khengat.sagar.scanqrc.activities.generator.GenerateActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
