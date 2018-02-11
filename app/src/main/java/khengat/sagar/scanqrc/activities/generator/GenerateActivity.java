@@ -45,15 +45,16 @@ public class GenerateActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String choice = lvGenerators.getItemAtPosition(i).toString();
-                if(choice.equals("BARCODE")) {
+                if(choice.equals("Add Product")) {
                     startActivity(new Intent(GenerateActivity.this, BarcodeGenerateActivity.class));
-                }else if (choice.equals("TEXT")){
-                    startActivity(new Intent(GenerateActivity.this, TextGeneratorActivity.class));
-                } else if (choice.equals("GEO")){
-                    startActivity(new Intent(GenerateActivity.this, GeoGeneratorActivity.class));
-                }else {
-                    startActivity(new Intent(GenerateActivity.this, VCardGeneratorActivity.class));
                 }
+//                }else if (choice.equals("TEXT")){
+//                    startActivity(new Intent(GenerateActivity.this, TextGeneratorActivity.class));
+//                } else if (choice.equals("GEO")){
+//                    startActivity(new Intent(GenerateActivity.this, GeoGeneratorActivity.class));
+//                }else {
+//                    startActivity(new Intent(GenerateActivity.this, VCardGeneratorActivity.class));
+//                }
             }
         });
 

@@ -25,6 +25,7 @@ import khengat.sagar.scanqrc.LoginActivity;
 import khengat.sagar.scanqrc.R;
 
 import khengat.sagar.scanqrc.activities.generator.GenerateActivity;
+import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.util.BottomNavigationViewHelper;
 import khengat.sagar.scanqrc.util.DatabaseHelper;
 
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private DatabaseHelper mDatabaeHelper;
     private static final String STATE_QRCODE = MainActivity.class.getName();
     private static final String STATE_QRCODEFORMAT = "";
-
+    public static Store store;
     /**
      * This method handles the main navigation
      */
@@ -120,6 +121,11 @@ public class MainActivity extends AppCompatActivity {
         action_navigation = (BottomNavigationView) findViewById(R.id.main_action_navigation);
         BottomNavigationViewHelper.disableShiftMode(action_navigation);
         action_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        Intent intent = getIntent();
+        store = intent.getParcelableExtra("store");
+
+
 
         //If the device were rotated then restore information
         if(savedInstanceState != null){

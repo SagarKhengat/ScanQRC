@@ -31,23 +31,16 @@
 
     <!-- GenerateActivity-->
     <string-array name="generators">
-        <item>BARCODE</item>
-        <item>GEO</item>
-        <item>TEXT</item>
-        <item>VCARD</item>
+        <item>Add Product</item>
+        <!--<item>GEO</item>-->
+        <!--<item>TEXT</item>-->
+        <!--<item>VCARD</item>-->
     </string-array>
 
     <!-- BarcodeGeneratorActivity-->
     <string name="activity_barcode_generator">Barcode Generator</string>
     <string-array name="barcode_formats_array">
-        <item>BARCODE</item>
-        <item>CODE_128</item>
-        <item>CODE_39</item>
-        <item>EAN_13</item>
-        <item>EAN_8</item>
-        <item>ITF</item>
-        <item>PDF_417</item>
-        <item>UPC_A</item>
+        <item>QR_CODE</item>
 
     </string-array>
 

@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +22,8 @@ import android.widget.Toast;
 
 import khengat.sagar.scanqrc.Constants.Config;
 import khengat.sagar.scanqrc.activities.*;
+import khengat.sagar.scanqrc.fragments.AddStoreorAreaFragment;
+import khengat.sagar.scanqrc.fragments.StoreListingFragment;
 import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.DatabaseHelper;
 
@@ -30,7 +35,8 @@ public class StoreListing extends AppCompatActivity {
 
     private DatabaseHandler mDatabaeHelper;
 
-
+    public static FragmentManager manager;
+    public static FragmentTransaction ft;
     Spinner spinnerStore;
     Spinner spinnerArea;
     FloatingActionButton fabArea;
@@ -52,41 +58,13 @@ public class StoreListing extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_store_listing);
+        setContentView(R.layout.activity_store);
 
-        mTextStore = (TextView) findViewById(R.id.txtStore);
-        mTextArea = (TextView) findViewById(R.id.txtArea);
-        spinnerArea = (Spinner) findViewById(R.id.spinnerArea);
-        spinnerStore = (Spinner) findViewById(R.id.spinnerStore);
-        fabStore = (FloatingActionButton) findViewById(R.id.fabStore);
-        fabArea = (FloatingActionButton) findViewById(R.id.fabArea);
-        fabGo = (FloatingActionButton) findViewById(R.id.fabGo);
+
         mDatabaeHelper = new DatabaseHandler(this);
 
 
-        if(mDatabaeHelper.fnGetAllArea().size()==0)
-        {
-            mTextArea.setText("Please Add Area First");
-            fabArea.setVisibility(View.VISIBLE);
-            spinnerArea.setVisibility(View.GONE);
-        }
-
-        if(mDatabaeHelper.fnGetAllStore().size()==0)
-        {
-            mTextStore.setText("Please Add Store First");
-            fabStore.setVisibility(View.VISIBLE);
-            spinnerStore.setVisibility(View.GONE);
-        }
-
-        fabGo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent accountsIntent = new Intent(activity, khengat.sagar.scanqrc.activities.MainActivity.class);
-
-                startActivity(accountsIntent);
-
-            }
-        });
+        setUpFragment(new StoreListingFragment(),"Class");
     }
 
     /**
@@ -101,15 +79,15 @@ public class StoreListing extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
-            case R.id.about:
-                AboutDialog aboutDialog = new AboutDialog(this);
-                aboutDialog.setTitle(R.string.about_dialog);
-                aboutDialog.show();
+            case R.id.addArea:
+                setUpFragment(new AddStoreorAreaFragment(),"Area");
                 return true;
-            case R.id.settings:
-                startActivity(new Intent(StoreListing.this, SettingsActivity.class));
+            case R.id.addstore:
+                setUpFragment(new AddStoreorAreaFragment(),"Store");
+                return true;
             case R.id.logout:
                 logout();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -118,6 +96,17 @@ public class StoreListing extends AppCompatActivity {
 
 
 
+    private void setUpFragment(Fragment fragment, String isFrom) {
+        Bundle bundle = new Bundle();
+        bundle.putString("isFrom", isFrom);
+
+        manager = this.getSupportFragmentManager();
+        ft = manager.beginTransaction();
+        ft.replace(android.R.id.tabcontent, fragment);
+        fragment.setArguments(bundle);
+        ft.commit();
+
+    }
 
 
 

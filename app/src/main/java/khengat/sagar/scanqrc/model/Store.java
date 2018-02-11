@@ -12,8 +12,8 @@ import com.j256.ormlite.field.DatabaseField;
 public class Store implements Parcelable{
     @DatabaseField(canBeNull = true)
     private String storeName;
-    @DatabaseField(canBeNull = true,id = true)
-    private String storeId;
+    @DatabaseField(canBeNull = true,generatedId = true)
+    private Integer storeId;
     @DatabaseField(foreign = true)
     private Area area;
 
@@ -27,11 +27,11 @@ public class Store implements Parcelable{
         this.storeName = storeName;
     }
 
-    public String getStoreId() {
+    public int getStoreId() {
         return storeId;
     }
 
-    public void setStoreId(String storeId) {
+    public void setStoreId(int storeId) {
         this.storeId = storeId;
     }
 
@@ -51,7 +51,7 @@ public class Store implements Parcelable{
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-                dest.writeString(storeId);
+                dest.writeInt(storeId);
                 dest.writeString(storeName);
                 dest.writeValue(area);
     }
@@ -68,7 +68,7 @@ public class Store implements Parcelable{
         }
     };
     public Store(Parcel in) {
-        storeId = in.readString();
+        storeId = in.readInt();
         storeName = in.readString();
         area = (Area) in.readValue(Store.class.getClassLoader());
     }

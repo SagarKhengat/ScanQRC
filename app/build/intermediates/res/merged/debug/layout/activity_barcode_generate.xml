@@ -51,26 +51,108 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
 
-                <EditText
-                    android:id="@+id/tfBarcode"
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutProductName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/hint_text2qr"
-                    android:inputType="textMultiLine" />
+                    android:layout_marginTop="40dp">
 
-                <TextView
-                    android:id="@+id/textView"
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/textInputEditTextProductName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Product Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@android:color/background_dark" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutProductBrand"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.00"
-                    android:paddingLeft="5dp"
-                    android:text="@string/tv_format" />
+                    android:layout_marginTop="20dp">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/textInputEditTextProductBrand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Product Brand"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@android:color/background_dark" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutProductDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/textInputEditTextProductDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Ennter Product Description"
+                        android:inputType="text"
+                        android:maxLines="2"
+                        android:textColor="@android:color/background_dark" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutProductPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/textInputEditTextProductPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Ennter Product Price in Rs."
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textColor="@android:color/background_dark" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutProductUnit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/textInputEditTextProductUnit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Product Unit (gm or kg etc.)"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@android:color/background_dark" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutProductStore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/textInputEditTextProductStore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@android:color/background_dark" />
+                </android.support.design.widget.TextInputLayout>
 
                 <Spinner
                     android:id="@+id/spinner"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.00" />
+
 
                 <ImageView
                     android:id="@+id/image"

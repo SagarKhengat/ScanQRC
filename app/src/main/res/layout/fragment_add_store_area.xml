@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/txtArea"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.00"
+        android:text="Select Area"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinnerArea"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="0.00" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:textColor="@android:color/background_dark" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabArea"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="top|right"
+        app:srcCompat="@drawable/ic_add_white_24dp" />
 </LinearLayout>

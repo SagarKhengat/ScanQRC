@@ -211,4 +211,38 @@ public class DatabaseHandler {
 		}
 	}
 
+
+	public List< Store> fnGetStoreInArea( Area area ) {
+		List <Store> mListStores = new ArrayList<>();
+		List <Store> mListAllStores = fnGetAllStore();
+
+		try {
+//			QueryBuilder < Store, Integer > qb = storeDao.queryBuilder();
+//			Where<Store, Integer> where = qb.where();
+//
+//			where.like( "areaId", area.getAreaId() );//.or().like("customerPrintAs", "%"+nameToSearch+"%");
+//
+//
+//
+//			// It filters only data present in DB fetched at the time of sync.
+//			PreparedQuery < Store> pq = where.prepare();
+//			mListStores = storeDao.query( pq );
+
+
+			for (Store store : mListAllStores)
+			{
+				if(store.getArea().getAreaId()==area.getAreaId())
+				{
+					mListStores.add(store);
+				}
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+		return mListStores;
+	}
+
+
 }

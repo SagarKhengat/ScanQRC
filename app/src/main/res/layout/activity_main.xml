@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorWhiteBackground"
-    tools:context="de.t_dankworth.scanqrc.activities.MainActivity">
+    tools:context="khengat.sagar.scanqrc.activities.MainActivity">
 
     <FrameLayout
         android:id="@+id/content"

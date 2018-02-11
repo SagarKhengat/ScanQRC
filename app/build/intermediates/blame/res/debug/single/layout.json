@@ -140,6 +140,10 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_store_area.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\fragment_add_store_area.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\about.xml"
     },
@@ -252,6 +256,10 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\spinner.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_header.xml"
     },
@@ -274,6 +282,10 @@
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_store.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",

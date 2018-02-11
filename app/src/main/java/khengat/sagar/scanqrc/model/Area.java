@@ -10,15 +10,15 @@ public class Area implements Parcelable {
     @DatabaseField(canBeNull = true)
     private String areaName;
 
-    @DatabaseField(canBeNull = true,id = true)
-    private String areaId;
+    @DatabaseField(canBeNull = true,generatedId = true)
+    private Integer areaId;
 
 
-    public String getAreaId() {
+    public int getAreaId() {
         return areaId;
     }
 
-    public void setAreaId(String areaId) {
+    public void setAreaId(int areaId) {
         this.areaId = areaId;
     }
 
@@ -38,7 +38,7 @@ public class Area implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(areaId);
+        dest.writeInt(areaId);
         dest.writeString(areaName);
 
     }
@@ -55,7 +55,7 @@ public class Area implements Parcelable {
     };
 
     public Area(Parcel in) {
-        areaId = in.readString();
+        areaId = in.readInt();
         areaName = in.readString();
     }
     @Override
