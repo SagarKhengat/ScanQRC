@@ -1,4 +1,4 @@
-#Sun Feb 11 13:09:37 IST 2018
+#Sun Feb 11 22:11:40 IST 2018
 base.0=E\:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a5a5d758f5e44e7ad52cc4ef811225a3b311bbfb
 renamed.1=classes2.dex
 renamed.0=classes.dex

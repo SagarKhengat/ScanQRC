@@ -1,6 +1,7 @@
 package khengat.sagar.scanqrc.activities;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,22 +12,36 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
 
 import khengat.sagar.scanqrc.Constants.Config;
 import khengat.sagar.scanqrc.LoginActivity;
 import khengat.sagar.scanqrc.R;
 
 import khengat.sagar.scanqrc.activities.generator.GenerateActivity;
+import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.util.BottomNavigationViewHelper;
+import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.DatabaseHelper;
 
 import static khengat.sagar.scanqrc.util.ButtonHandler.copyToClipboard;
@@ -41,14 +56,27 @@ import static khengat.sagar.scanqrc.util.ButtonHandler.webSearch;
  */
 public class MainActivity extends AppCompatActivity {
 
-    private TextView mTvInformation, mTvFormat, mLabelInformation, mLabelFormat;
+    private TextView mTvInformation;
     private BottomNavigationView action_navigation;
     final Activity activity = this;
     private String qrcode = "", qrcodeFormat = "";
-    private DatabaseHelper mDatabaeHelper;
+    private DatabaseHandler mDatabaeHelper;
     private static final String STATE_QRCODE = MainActivity.class.getName();
     private static final String STATE_QRCODEFORMAT = "";
     public static Store store;
+
+    public TextView textViewName;
+    public TextView textViewSize;
+    public TextView textViewunit;
+    public TextView textViewDescription;
+    public TextView textPrice;
+    public TextView textStore;
+    public TextView textBrand;
+    Product product;
+    Cart cart;
+    public CardView cardView;
+
+    Gson gson;
     /**
      * This method handles the main navigation
      */
@@ -68,18 +96,14 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, GenerateActivity.class));
                     return true;
                 //Following cases using a method from ButtonHandler
-                case R.id.main_action_navigation_copy:
-                    copyToClipboard(mTvInformation, qrcode, activity);
+                case R.id.main_action_navigation_addToCart:
+                    addCart();
                     return true;
                 case R.id.main_action_navigation_reset:
-                    resetScreenInformation(mTvInformation, qrcode, action_navigation);
+                    startActivity(new Intent(MainActivity.this, MainActivity.class));
+                    finish();
                     return true;
-                case R.id.main_action_navigation_search:
-                    webSearch(qrcode, activity);
-                    return true;
-                case R.id.main_action_navigation_share:
-                    shareTo(qrcode, activity);
-                    return true;
+
 
 
             }
@@ -106,13 +130,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        cardView = (CardView) findViewById(R.id.card_view);
         mTvInformation = (TextView) findViewById(R.id.tvTxtqrcode);
-        mTvFormat = (TextView) findViewById(R.id.tvFormat);
-        mLabelInformation = (TextView) findViewById(R.id.labelInformation);
-        mLabelFormat = (TextView) findViewById(R.id.labelFormat);
-        mDatabaeHelper = new DatabaseHelper(this);
-
+        textViewName = (TextView) findViewById(R.id.product_name);
+        textViewDescription= (TextView) findViewById(R.id.tv_product_desc);
+        textStore= (TextView) findViewById(R.id.tv_product_store);
+        textPrice= (TextView) findViewById(R.id.tv_price);
+        textViewSize = (TextView) findViewById(R.id.tv_product_size);
+        textViewunit = (TextView) findViewById(R.id.tv_product_unit);
+        textBrand = (TextView) findViewById(R.id.product_brand);
+        mDatabaeHelper = new DatabaseHandler(this);
+        cart = new Cart();
+        gson = new Gson();
         BottomNavigationView main_navigation = (BottomNavigationView) findViewById(R.id.navigation);
         BottomNavigationViewHelper.disableShiftMode(main_navigation);
         main_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
@@ -134,13 +163,32 @@ public class MainActivity extends AppCompatActivity {
             if(qrcode.equals("")){
 
             } else {
-                mTvFormat.setVisibility(View.VISIBLE);
-                mLabelInformation.setVisibility(View.VISIBLE);
-                mLabelFormat.setVisibility(View.VISIBLE);
-                mTvFormat.setText(qrcodeFormat);
-                mTvInformation.setText(qrcode);
-                action_navigation.setVisibility(View.VISIBLE);
+                String json = qrcode;
+                product = gson.fromJson(json, Product.class);
 
+                if(product.getStore().getStoreId()==store.getStoreId()  && product.getStore().getStoreName().equalsIgnoreCase(store.getStoreName())) {
+                    cardView.setVisibility(View.VISIBLE);
+
+                    textViewName.setText(product.getProductName());
+
+                    textViewDescription.setText(product.getProductDescription());
+
+                    textPrice.setText(String.valueOf(product.getProductTotalPrice()));
+
+                    textViewSize.setText(product.getProductSize());
+                    textViewunit.setText(product.getProductUnit());
+
+                    textBrand.setText(product.getProductBrand());
+
+                    textStore.setText(product.getStore().getStoreName());
+
+                    mTvInformation.setVisibility(View.GONE);
+                    action_navigation.setVisibility(View.VISIBLE);
+                }
+                else
+                {
+                    Toast.makeText(activity, "This product belongs to another store", Toast.LENGTH_SHORT).show();
+                }
             }
 
         } else {
@@ -174,8 +222,10 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.settings:
                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                return true;
             case R.id.logout:
                 logout();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -194,18 +244,34 @@ public class MainActivity extends AppCompatActivity {
                 qrcodeFormat = result.getFormatName();
                 qrcode = result.getContents();
                 if(!qrcode.equals("")){
-                    mTvFormat.setVisibility(View.VISIBLE);
-                    mLabelInformation.setVisibility(View.VISIBLE);
-                    mLabelFormat.setVisibility(View.VISIBLE);
-                    mTvFormat.setText(qrcodeFormat);
-                    mTvInformation.setText(qrcode);
-                    action_navigation.setVisibility(View.VISIBLE);
-                    addToDatabase(mTvInformation.getText().toString());
-                    //Automatic Clipboard if activated
-                    SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-                    String auto_scan = prefs.getString("pref_auto_clipboard", "");
-                    if(auto_scan.equals("true")){
-                        copyToClipboard(mTvInformation, qrcode, activity);
+                    try {
+                        String json = qrcode;
+                        product = gson.fromJson(json, Product.class);
+
+                        if (product.getStore().getStoreId() == store.getStoreId() && product.getStore().getStoreName().equalsIgnoreCase(store.getStoreName())) {
+                            cardView.setVisibility(View.VISIBLE);
+
+                            textViewName.setText(product.getProductName());
+
+                            textViewDescription.setText(product.getProductDescription());
+
+                            textPrice.setText(String.valueOf(product.getProductTotalPrice()));
+
+                            textViewSize.setText(product.getProductSize());
+                            textViewunit.setText(product.getProductUnit());
+
+                            textBrand.setText(product.getProductBrand());
+
+                            textStore.setText(product.getStore().getStoreName());
+
+                            mTvInformation.setVisibility(View.GONE);
+                            action_navigation.setVisibility(View.VISIBLE);
+                        } else {
+                            Toast.makeText(activity, "This product belongs to another store", Toast.LENGTH_SHORT).show();
+                        }
+                    }catch (Exception e)
+                    {
+                        Toast.makeText(activity, "Invalid QR Code. Please try again..", Toast.LENGTH_SHORT).show();
                     }
                 }
 
@@ -236,10 +302,10 @@ public class MainActivity extends AppCompatActivity {
      * @param newCode = scanned qr-code/barcode
      */
     public void addToDatabase(String newCode){
-        boolean insertData = mDatabaeHelper.addData(newCode);
-        if(!insertData){
-            Toast.makeText(this, getResources().getText(R.string.error_add_to_database), Toast.LENGTH_LONG).show();
-        }
+//        boolean insertData = mDatabaeHelper.addData(newCode);
+//        if(!insertData){
+//            Toast.makeText(this, getResources().getText(R.string.error_add_to_database), Toast.LENGTH_LONG).show();
+//        }
     }
 
     private void logout() {
@@ -290,4 +356,58 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void addCart()
+    {
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
+        LayoutInflater inflater = LayoutInflater.from(activity);
+        final View dialogView = inflater.inflate(R.layout.custom_dialog, null);
+        dialogBuilder.setView(dialogView);
+
+        final EditText edt = (EditText) dialogView.findViewById(R.id.edit1);
+        final TextView unit = (TextView) dialogView.findViewById(R.id.unit);
+
+        dialogBuilder.setTitle("Add Quantity");
+        unit.setText(product.getProductUnit());
+        dialogBuilder.setPositiveButton("Add to Cart", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                String edtQ =   edt.getText().toString().trim();
+                int value = Integer.parseInt(edtQ);
+
+
+
+                double multiQ = value * product.getProductTotalPrice();
+
+                product.setProductQuantity(value);
+                product.setProductTotalPrice(multiQ);
+
+
+
+
+
+               cart.setProductSize(product.getProductSize());
+                cart.setStore(store);
+                cart.setProductUnit(product.getProductUnit());
+                cart.setProductBrand(product.getProductBrand());
+                cart.setProductName(product.getProductName());
+                cart.setProductDescription(product.getProductDescription());
+                cart.setProductQuantity(product.getProductQuantity());
+                cart.setProductTotalPrice(product.getProductTotalPrice());
+
+
+
+                mDatabaeHelper.addToCart(cart);
+
+
+
+
+            }
+        });
+        dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+
+            }
+        });
+        AlertDialog b = dialogBuilder.create();
+        b.show();
+    }
 }

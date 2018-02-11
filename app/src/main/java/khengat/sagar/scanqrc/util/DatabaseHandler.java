@@ -26,6 +26,8 @@ import java.util.Iterator;
 import java.util.List;
 
 import khengat.sagar.scanqrc.model.Area;
+import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.model.User;
 
@@ -37,6 +39,8 @@ public class DatabaseHandler {
 	RuntimeExceptionDao<Store, Integer> storeDao;
 
 	private RuntimeExceptionDao<User, Integer> userDao;
+	private RuntimeExceptionDao<Product, Integer> productDao;
+	private RuntimeExceptionDao<Cart, Integer> cartDao;
 
 
 	private DatabaseHelper databaseHelper;
@@ -60,6 +64,10 @@ public class DatabaseHandler {
 		storeDao = getHelper().getStoreDao();
 
 		userDao = getHelper().getUserDao();
+		productDao = getHelper().getProductDao();
+		cartDao = getHelper().getCartDao();
+
+
 
 
 	}
@@ -242,6 +250,31 @@ public class DatabaseHandler {
 			e.printStackTrace();
 		}
 		return mListStores;
+	}
+
+	public void addProduct(Product product) {
+		try
+		{
+			productDao.createIfNotExists( product );
+		} catch(OutOfMemoryError e) {
+			e.printStackTrace();
+			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void addToCart(Cart product) {
+		try
+		{
+			cartDao.createIfNotExists( product );
+			Toast.makeText( context, "Product Added in Cart Successfully.", Toast.LENGTH_LONG ).show();
+		} catch(OutOfMemoryError e) {
+			e.printStackTrace();
+			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 

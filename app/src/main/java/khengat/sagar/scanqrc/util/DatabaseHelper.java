@@ -15,6 +15,8 @@ import java.sql.SQLException;
 
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.model.Area;
+import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.model.User;
 
@@ -40,6 +42,8 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 	private RuntimeExceptionDao<Store, Integer> storeDao = null;
 
 	private RuntimeExceptionDao<User, Integer> userDao= null;
+	private RuntimeExceptionDao<Product, Integer> productDao= null;
+	private RuntimeExceptionDao<Cart, Integer> cartDao= null;
 
 
 	 Context context1;
@@ -96,6 +100,8 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 			TableUtils.createTable(connectionSource, Store.class);
 
 			TableUtils.createTable(connectionSource, User.class);
+			TableUtils.createTable(connectionSource, Product.class);
+			TableUtils.createTable(connectionSource, Cart.class);
 			db.execSQL(CREATE_SCANNED_TABLE);
 
 
@@ -122,6 +128,8 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 			TableUtils.dropTable(connectionSource, Store.class, true);
 
 			TableUtils.dropTable(connectionSource, User.class, true);
+			TableUtils.dropTable(connectionSource, Product.class, true);
+			TableUtils.dropTable(connectionSource, Cart.class, true);
 
 			db.execSQL(DROP_SCANNED_TABLE);
 
@@ -147,6 +155,20 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 		}
 		return areaDao;
 	}
+	public RuntimeExceptionDao<Cart, Integer> getCartDao() {
+		if (cartDao == null) {
+			cartDao = getRuntimeExceptionDao(Cart.class);
+		}
+		return cartDao;
+	}
+
+	public RuntimeExceptionDao<Product, Integer> getProductDao() {
+		if (productDao == null) {
+			productDao = getRuntimeExceptionDao(Product.class);
+		}
+		return productDao;
+	}
+
 
 	public RuntimeExceptionDao<Store, Integer> getStoreDao() {
 		if (storeDao == null) {
@@ -176,6 +198,8 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 		areaDao = null;
 		storeDao = null;
 		userDao = null;
+		productDao = null;
+		cartDao = null;
 
 	}
 

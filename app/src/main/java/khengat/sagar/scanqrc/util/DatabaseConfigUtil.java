@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 import khengat.sagar.scanqrc.model.Area;
+import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.model.User;
 
@@ -19,7 +21,7 @@ public class DatabaseConfigUtil extends OrmLiteConfigUtil
 	
 	
 	@SuppressWarnings("rawtypes")
-	static Class[] classes = new Class[]{Area.class,Store.class,User.class,};
+	static Class[] classes = new Class[]{Area.class,Store.class,User.class, Product.class, Cart.class};
 	
 	public static void main(String[] args) throws SQLException, IOException {
 		writeConfigFile("ormlite_config.txt",classes);

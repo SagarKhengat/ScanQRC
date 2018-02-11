@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorWhiteBackground"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
     tools:context="khengat.sagar.scanqrc.activities.MainActivity">
 
     <FrameLayout
@@ -24,52 +25,211 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/labelFormat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                    android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:layout_marginTop="@dimen/activity_horizontal_margin"
-
-                    android:text="@string/title_format"
-
-                    android:textSize="24sp"
-                    android:visibility="gone" />
-
-                <TextView
-                    android:id="@+id/tvFormat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/labelFormat"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                    android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:textSize="18sp"
-                    android:visibility="gone" />
-
-                <TextView
-                    android:id="@+id/labelInformation"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/tvFormat"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                    android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:text="@string/title_information"
-                    android:textSize="24sp"
-                    android:visibility="gone" />
-
-                <TextView
                     android:id="@+id/tvTxtqrcode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/labelInformation"
                     android:layout_marginLeft="@dimen/activity_horizontal_margin"
                     android:layout_marginRight="@dimen/activity_horizontal_margin"
                     android:layout_marginTop="@dimen/activity_horizontal_margin"
                     android:text='@string/default_text_main_activity'
                     android:textSize="18sp"
                     android:visibility="visible" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvTxtqrcode"
+                    card:cardElevation="2dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/activity_horizontal_margin">
+
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:paddingRight="10dp"
+                                    android:text="Product Name :"
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/product_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:maxLines="2"
+                                    android:text=""
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp"
+                                    android:text="Product Size: "
+                                    android:textColor="#000"
+                                    android:textSize="17sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_product_size"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="10dp"
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                            </TableRow>
+                            <TableRow>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp"
+                                    android:text="Product Unit: "
+                                    android:textColor="#000"
+                                    android:textSize="17sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_product_unit"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="10dp"
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                            </TableRow>
+                            <TableRow>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp"
+                                    android:text="Product Price:"
+                                    android:textColor="#000"
+                                    android:textSize="17sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_price"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="10dp"
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp"
+                                    android:text="Product Store:"
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv_product_store"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="10dp"
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold"
+
+                                    />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp"
+                                    android:text="Brand :"
+                                    android:textColor="#000"
+                                    android:textSize="17sp" />
+
+                                <TextView
+                                    android:id="@+id/product_brand"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:maxLines="2"
+                                    android:paddingTop="10dp"
+                                    android:text=""
+                                    android:textColor="#000"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold" />
+
+                            </TableRow>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp"
+                                android:text="Product Description:"
+                                android:textColor="#000"
+                                android:textSize="17sp"
+
+                                />
+
+                            <TextView
+                                android:id="@+id/tv_product_desc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:textColor="#000"
+                                android:textSize="17sp"
+                                android:textStyle="bold"
+
+                                />
+
+
+                        </TableLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
 
             </RelativeLayout>
         </ScrollView>

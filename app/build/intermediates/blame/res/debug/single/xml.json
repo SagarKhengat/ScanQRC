@@ -6,5 +6,9 @@
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\file_paths.xml"
     }
 ]

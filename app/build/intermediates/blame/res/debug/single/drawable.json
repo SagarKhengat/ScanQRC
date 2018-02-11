@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },

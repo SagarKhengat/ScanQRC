@@ -1,14 +1,21 @@
 package khengat.sagar.scanqrc.activities.generator;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -23,9 +30,18 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Random;
+
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.activities.MainActivity;
 import khengat.sagar.scanqrc.model.Product;
+import khengat.sagar.scanqrc.model.Store;
+import khengat.sagar.scanqrc.util.DatabaseHandler;
+
+import static khengat.sagar.scanqrc.activities.MainActivity.store;
 
 
 /**
@@ -46,15 +62,20 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
     private TextInputEditText textInputEditTextProductDescription;
     private TextInputEditText textInputEditTextProductPrice;
     private TextInputEditText textInputEditTextProductUnit;
+    private TextInputEditText textInputEditTextProductSize;
     private TextInputEditText textInputEditTextProductStore;
     Product product;
-
+    Store storeBarcode;
     ImageView image;
     BarcodeFormat format;
     String text2Barcode;
     MultiFormatWriter multiFormatWriter;
     Bitmap bitmap;
     final Activity activity = this;
+    DatabaseHandler mDatabaseHandler;
+    String FOLDER_NAME="ScanQRC";
+    FloatingActionButton fab;
+    FloatingActionButton fabShare;
     private static final String STATE_TEXT = MainActivity.class.getName();
 
     @Override
@@ -64,11 +85,13 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         product = new Product();
+        mDatabaseHandler = new DatabaseHandler(activity);
         textInputLayoutProductName = (TextInputLayout) findViewById(R.id.textInputLayoutProductName);
         textInputLayoutProductBrand = (TextInputLayout) findViewById(R.id.textInputLayoutProductBrand);
         textInputLayoutProductDescription = (TextInputLayout) findViewById(R.id.textInputLayoutProductDescription);
         textInputLayoutProductPrice = (TextInputLayout) findViewById(R.id.textInputLayoutProductPrice);
         textInputLayoutProductUnit = (TextInputLayout) findViewById(R.id.textInputLayoutProductUnit);
+
         textInputLayoutProductStore = (TextInputLayout) findViewById(R.id.textInputLayoutProductStore);
 
         textInputEditTextProductName = (TextInputEditText) findViewById(R.id.textInputEditTextProductName);
@@ -76,6 +99,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
         textInputEditTextProductDescription = (TextInputEditText) findViewById(R.id.textInputEditTextProductDescription);
         textInputEditTextProductPrice = (TextInputEditText) findViewById(R.id.textInputEditTextProductPrice);
         textInputEditTextProductUnit = (TextInputEditText) findViewById(R.id.textInputEditTextProductUnit);
+        textInputEditTextProductSize = (TextInputEditText) findViewById(R.id.textInputEditTextProductSize);
         textInputEditTextProductStore = (TextInputEditText) findViewById(R.id.textInputEditTextProductStore);
         image = (ImageView) findViewById(R.id.image);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -87,7 +111,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                 R.array.barcode_formats_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
-
+        storeBarcode = store;
 
 
         // Get intent, action and MINE type and check if the intent was started by a share to modul from an other app
@@ -100,9 +124,11 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
 //                handleSendText(intent); //call method to handle sended text
 //            }
 //        }
-
+        textInputEditTextProductStore.setText(storeBarcode.getStoreName());
+        textInputEditTextProductStore.setEnabled(false);
         //OnClickListener for the "+" Button and functionality
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+       fab = (FloatingActionButton) findViewById(R.id.fab);
+       fabShare = (FloatingActionButton) findViewById(R.id.fabShare);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -148,7 +174,15 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                 {
                     product.setProductUnit(textInputEditTextProductUnit.getText().toString().trim());
                 }
-
+                if(textInputEditTextProductSize.getText().toString().trim()==null)
+                {
+                    textInputEditTextProductSize.setError("Please Enter Product Size");
+                }
+                else
+                {
+                    product.setProductSize(textInputEditTextProductSize.getText().toString().trim());
+                }
+                product.setStore(storeBarcode);
                 Gson gson = new Gson();
                 text2Barcode = gson.toJson(product);
 
@@ -161,6 +195,17 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                         BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
                         bitmap = barcodeEncoder.createBitmap(bitMatrix);
                         image.setImageBitmap(bitmap);
+                        mDatabaseHandler.addProduct(product);
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            if (ActivityCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                                ActivityCompat.requestPermissions(activity, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
+                            }
+                        }
+
+                        saveImageToSDCard(bitmap,product.getProductName(),storeBarcode.getStoreName());
+                        Toast.makeText(activity.getApplicationContext(), getResources().getText(R.string.success_generate), Toast.LENGTH_LONG).show();
+                        fab.setVisibility(View.GONE);
+                        fabShare.setVisibility(View.VISIBLE);
                     } catch (Exception e){
                         Toast.makeText(activity.getApplicationContext(), getResources().getText(R.string.error_generate), Toast.LENGTH_LONG).show();
                     }
@@ -168,6 +213,42 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
 
             }
         });
+
+        fabShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Save this bitmap to a file.
+                File cache = activity.getExternalCacheDir();
+                File sharefile = new File(cache, "toshare.png");
+                Log.d("share file type is", sharefile.getAbsolutePath());
+                try {
+                    FileOutputStream out = new FileOutputStream(sharefile);
+                    bitmap.compress(Bitmap.CompressFormat.PNG, 100, out);
+                    out.flush();
+                    out.close();
+                } catch (IOException e) {
+                    Log.e("ERROR", String.valueOf(e.getMessage()));
+
+                }
+
+
+                // Now send it out to share
+                Intent share = new Intent(android.content.Intent.ACTION_SEND);
+                share.setType("image/*");
+                share.putExtra(Intent.EXTRA_STREAM,
+                        Uri.parse("file://" + sharefile));
+
+                startActivity(Intent.createChooser(share,
+                        "Share This QR code with"));
+
+
+
+
+
+            }
+        });
+
+
     }
 
 //    /**
@@ -191,6 +272,42 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
 
         savedInstanceState.putString(STATE_TEXT, text2Barcode);
     }
+
+
+
+
+    public void saveImageToSDCard(Bitmap bitmap,String name,String areaName) {
+        int num = 0;
+
+        File myDir = new File(
+                Environment.getExternalStorageDirectory().getPath()
+                        + File.separator
+                        + FOLDER_NAME+  File.separator
+                        + areaName);
+
+        myDir.mkdirs();
+        String fname = name + ".jpg";
+        File file = new File(myDir, fname);
+        if (file.exists()) {
+            fname = name + (num++) + ".jpg";
+            file = new File(myDir, fname);
+        }
+        try {
+            FileOutputStream out = new FileOutputStream(file);
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, out);
+            out.flush();
+            out.close();
+
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(activity,"Sorry! Failed to save QR code",
+                    Toast.LENGTH_LONG).show();
+        }
+    }
+
+
 
     /**
      * Generates the chosen format from the spinner menu

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:2:1-97:12
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:2:1-102:12
 	package
 		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
@@ -13,8 +13,16 @@ ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:2:1-97:12
 	android:versionCode
 		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:5:22-77
 application
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:5:5-95:19
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:6:5-100:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\c0e3893b948c28fb891192fd7fefd132cb6ad67b\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ce1ecafd31a96dcb4b4ddecc8adfb47019c37a47\output\AndroidManifest.xml:26:5-20
@@ -28,138 +36,139 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sagar Khe
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\086cf853a10c6f38b8de5852d1322e55a100386c\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\e7ead4a276c773deb69aeffb72365da4ff84c81f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ae8efc30cf76738e70fecf852683b8902923762d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\9e8143de18a9d67e247962bbb0d5218bc1b529ee\output\AndroidManifest.xml:26:5-20
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:9:9-41
 	android:supportsRtl
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:10:9-35
 	android:allowBackup
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:8:9-43
 	android:theme
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:11:9-40
 activity#khengat.sagar.scanqrc.activities.MainActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:11:9-13:48
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:12:9-14:48
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:13:13-45
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:14:13-45
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:12:13-52
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:13:13-52
 activity#khengat.sagar.scanqrc.activities.generator.GenerateActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:14:9-18:59
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:15:9-19:59
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:16:13-54
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:17:13-54
 	android:parentActivityName
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:17:13-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:18:13-66
 	android:theme
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:18:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:15:13-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:16:13-66
 activity#khengat.sagar.scanqrc.activities.HistoryActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:19:9-21:56
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:20:9-22:56
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:21:13-53
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:22:13-53
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:20:13-55
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:21:13-55
 activity#khengat.sagar.scanqrc.activities.HistoryDetailsActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:22:9-24:64
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:23:9-25:64
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:24:13-61
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:25:13-61
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:23:13-62
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:24:13-62
 activity#khengat.sagar.scanqrc.activities.SettingsActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:25:9-32:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:26:9-33:20
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:27:13-60
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:28:13-60
 	android:parentActivityName
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:28:13-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:29:13-66
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:26:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:27:13-56
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:29:13-31:81
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:30:13-32:81
 	android:value
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:31:17-78
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:30:17-63
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:31:17-63
 activity#khengat.sagar.scanqrc.activities.generator.GeoGeneratorActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:33:9-41:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:34:9-42:20
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:35:13-65
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:36:13-65
 	android:parentActivityName
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:36:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:37:13-80
 	android:theme
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:37:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:34:13-70
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:35:13-70
 activity#khengat.sagar.scanqrc.activities.generator.TextGeneratorActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:42:9-58:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:43:9-59:20
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:44:13-54
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:45:13-54
 	android:parentActivityName
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:45:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:46:13-80
 	android:theme
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:46:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:47:13-56
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:43:13-71
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:44:13-71
 intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:47:13-53:29
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:48:13-54:29
 action#android.intent.action.SEND
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:48:17-69
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:50:17-76
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:51:17-76
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:50:27-73
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:51:27-73
 data
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:52:17-55
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:53:17-55
 	android:mimeType
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:52:23-52
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:53:23-52
 activity#khengat.sagar.scanqrc.activities.generator.BarcodeGenerateActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:59:9-75:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:60:9-76:20
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:61:13-63
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:62:13-63
 	android:parentActivityName
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:62:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:63:13-80
 	android:theme
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:63:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:64:13-56
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:60:13-73
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:61:13-73
 activity#khengat.sagar.scanqrc.activities.generator.VCardGeneratorActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:76:9-84:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:77:9-85:20
 	android:label
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:78:13-67
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:79:13-67
 	android:parentActivityName
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:79:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:80:13-80
 	android:theme
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:80:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:81:13-56
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:77:13-72
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:78:13-72
 activity#khengat.sagar.scanqrc.SplashScreen
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:85:9-91:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:86:9-92:20
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:85:19-47
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:86:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:86:13-90:29
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:87:13-91:29
 action#android.intent.action.MAIN
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:87:17-69
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:88:17-69
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:87:25-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:88:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:89:17-77
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:90:17-77
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:89:27-74
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:90:27-74
 activity#khengat.sagar.scanqrc.Register
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:92:9-46
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:93:9-46
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:92:19-43
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:93:19-43
 activity#khengat.sagar.scanqrc.LoginActivity
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:93:9-51
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:94:9-51
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:93:19-48
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:94:19-48
 activity#khengat.sagar.scanqrc.StoreListing
-ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:94:9-59
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:95:9-59
 	android:name
-		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:94:19-47
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:95:19-47
 uses-sdk
 INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:21:5-23:62
@@ -176,6 +185,7 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sagar Khe
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\086cf853a10c6f38b8de5852d1322e55a100386c\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\e7ead4a276c773deb69aeffb72365da4ff84c81f\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ae8efc30cf76738e70fecf852683b8902923762d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\9e8143de18a9d67e247962bbb0d5218bc1b529ee\output\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -197,6 +207,7 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sagar Khe
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\086cf853a10c6f38b8de5852d1322e55a100386c\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\e7ead4a276c773deb69aeffb72365da4ff84c81f\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ae8efc30cf76738e70fecf852683b8902923762d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\9e8143de18a9d67e247962bbb0d5218bc1b529ee\output\AndroidManifest.xml:22:5-24:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:27:9-31
 	android:name

@@ -55,6 +55,7 @@
     <!-- TextGeneratorActivity Erorrs-->
     <string name="error_text_first">First type in some Text</string>
     <string name="error_generate">No valid input for this format</string>
+    <string name="success_generate">QR Code generated and saved in memory successfully</string>
 
     <!-- GeoGeneratorActivity-->
     <string name="hint_latitude">latitude example: 43.73</string>
