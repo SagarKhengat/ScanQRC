@@ -175,6 +175,27 @@ public class DatabaseHandler {
 		return mListIndustry;
 	}
 
+
+	public List<Cart> fnGetAllCart() {
+		List< Cart > mListIndustry = new ArrayList<>();
+
+		try {
+			QueryBuilder< Cart, Integer > queryBuilder = cartDao.queryBuilder();
+			PreparedQuery< Cart > preparedQuery = null;
+			preparedQuery = queryBuilder.prepare();
+			mListIndustry = cartDao.query( preparedQuery );
+		} catch ( SQLException e ) {
+			e.printStackTrace();
+		} catch(OutOfMemoryError e) {
+			e.printStackTrace();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+
+		return mListIndustry;
+	}
+
+
 	public List<Area> fnGetAllArea() {
 		List< Area > mListIndustry = new ArrayList<>();
 
@@ -277,5 +298,142 @@ public class DatabaseHandler {
 		}
 	}
 
+
+	public int fnGetCartCount(Store store)
+	{
+		int i = 0;
+
+
+		List <Cart> mListStores = new ArrayList<>();
+		List <Cart> mListAllStores = fnGetAllCart();
+
+		try {
+//			QueryBuilder < Store, Integer > qb = storeDao.queryBuilder();
+//			Where<Store, Integer> where = qb.where();
+//
+//			where.like( "areaId", area.getAreaId() );//.or().like("customerPrintAs", "%"+nameToSearch+"%");
+//
+//
+//
+//			// It filters only data present in DB fetched at the time of sync.
+//			PreparedQuery < Store> pq = where.prepare();
+//			mListStores = storeDao.query( pq );
+
+
+			for (Cart cart : mListAllStores)
+			{
+				if(cart.getStore().getStoreId()==store.getStoreId())
+				{
+					mListStores.add(cart);
+				}
+			}
+
+			if(mListStores.size()!=0) {
+				i = mListStores.size();
+			}
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+
+		return i;
+	}
+
+
+	public List<Cart> fnGetAllCart(Store store)
+	{
+
+		List <Cart> mListStores = new ArrayList<>();
+		List <Cart> mListAllStores = fnGetAllCart();
+
+		try {
+//			QueryBuilder < Store, Integer > qb = storeDao.queryBuilder();
+//			Where<Store, Integer> where = qb.where();
+//
+//			where.like( "areaId", area.getAreaId() );//.or().like("customerPrintAs", "%"+nameToSearch+"%");
+//
+//
+//
+//			// It filters only data present in DB fetched at the time of sync.
+//			PreparedQuery < Store> pq = where.prepare();
+//			mListStores = storeDao.query( pq );
+
+
+			for (Cart cart : mListAllStores)
+			{
+				if(cart.getStore().getStoreId()==store.getStoreId())
+				{
+					mListStores.add(cart);
+				}
+			}
+
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+
+		return mListStores;
+	}
+
+
+
+	public void deleteCartitem(Cart cart) {
+		try
+		{
+			cartDao.delete(cart);
+			Toast.makeText(context, "Product Deleted Successfully", Toast.LENGTH_LONG).show();
+
+		}
+		catch(OutOfMemoryError e)
+		{
+			e.printStackTrace();
+			Toast.makeText(context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG).show();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+
+	public void fnDeleteAllCart(Store store)
+	{
+
+		List <Cart> mListStores = new ArrayList<>();
+		List <Cart> mListAllStores = fnGetAllCart();
+
+		try {
+//			QueryBuilder < Store, Integer > qb = storeDao.queryBuilder();
+//			Where<Store, Integer> where = qb.where();
+//
+//			where.like( "areaId", area.getAreaId() );//.or().like("customerPrintAs", "%"+nameToSearch+"%");
+//
+//
+//
+//			// It filters only data present in DB fetched at the time of sync.
+//			PreparedQuery < Store> pq = where.prepare();
+//			mListStores = storeDao.query( pq );
+
+
+			for (Cart cart : mListAllStores)
+			{
+				if(cart.getStore().getStoreId()==store.getStoreId())
+				{
+					cartDao.delete(cart);
+				}
+			}
+
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+
+
+	}
 
 }

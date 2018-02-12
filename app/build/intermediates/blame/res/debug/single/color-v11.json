@@ -1,10 +1,18 @@
 [
     {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:weightSum="1">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+           <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/product_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:maxLines="3"
+                android:paddingTop="8dp"
+                android:text="product_name"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+               <ImageView
+                   android:id="@+id/delete"
+                   android:layout_width="25dp"
+                   android:layout_height="28dp"
+                   android:src="@drawable/rmv"
+                   android:layout_alignParentEnd="true"
+                   android:layout_alignParentRight="true"/>
+           </RelativeLayout>
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="sans-serif-light"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:text="product_name"
+                android:textSize="12sp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/rs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-light"
+
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+                    android:text="MRP: "
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/actual_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/rs"
+                    android:fontFamily="sans-serif-light"
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+                    android:text="actual_price"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dash"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/rs"
+                    android:background="@drawable/line"
+                    android:fontFamily="sans-serif-light"
+                    android:maxLines="1"
+                    android:layout_marginTop="9dp"
+                    />
+                <TextView
+                    android:id="@+id/unitact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/actual_price"
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+                    android:text="kg"
+                    android:textSize="12sp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/rsselling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="8dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:text="Rs: "
+                    android:textSize="14sp" />
+
+                <TextView
+
+                    android:id="@+id/selling_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/rsselling"
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+                    android:text="selling_price"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/unitsell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/selling_price"
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="kg"
+                    android:textSize="14sp"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="sans-serif-light"
+
+                    android:maxLines="1"
+                    android:paddingTop="5dp"
+                    android:text="Size"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvquantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="sans-serif-light"
+
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+                    android:text="Qty : "
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/tvquantity"
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+
+                    android:textColor="@color/colorAccent"
+                    android:text="quantity"
+                    android:textSize="12sp"
+                    />
+                <TextView
+                    android:id="@+id/unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/quantity"
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+
+
+                    android:text="kg"
+                    android:textSize="12sp"
+                    />
+
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/rstotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+
+                    android:fontFamily="sans-serif-light"
+                    android:maxLines="1"
+                    android:paddingTop="8dp"
+
+                    android:text="Total Price: "
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/total_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toRightOf="@id/rstotal"
+                    android:maxLines="1"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="8dp"
+
+
+                    android:text="total_price"
+                    android:textSize="12sp"
+
+
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/main"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical" />
+</RelativeLayout>
