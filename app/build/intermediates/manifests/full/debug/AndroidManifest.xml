@@ -126,6 +126,7 @@
         <activity android:name="khengat.sagar.scanqrc.Register" />
         <activity android:name="khengat.sagar.scanqrc.LoginActivity" />
         <activity android:name="khengat.sagar.scanqrc.StoreListing" />
+        <activity android:name="khengat.sagar.scanqrc.activities.CartActivity" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

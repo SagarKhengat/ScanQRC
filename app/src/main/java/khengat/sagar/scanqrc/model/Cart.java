@@ -178,7 +178,7 @@ public class Cart implements Parcelable {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "Cart{" +
                 "productName='" + productName + '\'' +
                 ", productDescription='" + productDescription + '\'' +
                 ", store=" + store +

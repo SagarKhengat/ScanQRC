@@ -1,21 +1,52 @@
 package khengat.sagar.scanqrc.activities;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
+import com.google.gson.Gson;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import khengat.sagar.scanqrc.Adapters.CustomHistory;
+import khengat.sagar.scanqrc.Adapters.CustomcheckOut;
+import khengat.sagar.scanqrc.Constants.Config;
 import khengat.sagar.scanqrc.R;
+import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.History;
+import khengat.sagar.scanqrc.model.Store;
+import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.DatabaseHelper;
+import khengat.sagar.scanqrc.util.MyAdapterListener;
+
+import static khengat.sagar.scanqrc.activities.MainActivity.store;
 
 
 /**
@@ -25,67 +56,123 @@ import khengat.sagar.scanqrc.util.DatabaseHelper;
 
 public class HistoryActivity extends AppCompatActivity {
 
-    private static final String TAG = "History";
-    DatabaseHelper historyDatabaseHelper;
-    private ListView historyListView;
+    private  int userToken;
+    private List<Cart> cartList;
+    private RecyclerView recyclerView;
     final Activity activity = this;
-
+    private RecyclerView.LayoutManager layoutManager;
+    private RecyclerView.Adapter adapter;
+    private DatabaseHandler mDatabaeHelper;
+    Gson gson;
+    Store storeBarcode;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
-        historyDatabaseHelper = new DatabaseHelper(this);
-        historyListView = (ListView) findViewById(R.id.listView);
+        recyclerView = (RecyclerView) findViewById(R.id.product_recycler);
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
 
-        showDataInListView();
+        gson = new Gson();
+        //Fetching the boolean value form sharedpreferences
+        SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        String json = sharedPreferences.getString(Config.STORE_SHARED_PREF, "");
 
+        storeBarcode = gson.fromJson(json, Store.class);
 
+        cartList = new ArrayList<>();
+        mDatabaeHelper = new DatabaseHandler(this);
+        ActionBar actionBar = getSupportActionBar();
+
+        fnOrderHistory();
     }
 
-    /**
-     * Refreshes the History after comming back from the HistoryDetailsActivity
-     */
     @Override
-    public void onResume(){
-        super.onResume();
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
 
-        showDataInListView();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
-    /**
-     * This method gets all the data from the table with the column codes and add it to a ArrayList.
-     * The ArrayList will be handed over to a ListAdapter and the listview takes this ListAdapter.
-     * Then set an onItemClickListener to the ListView.
-     */
-    private void showDataInListView(){
-        Cursor data = historyDatabaseHelper.getData();
-        ArrayList<String> listData = new ArrayList<>();
-        while(data.moveToNext()){
-            listData.add(data.getString(1)); //column 0 = id; column 1 = code
-        }
-        ListAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listData);
-        historyListView.setAdapter(adapter);
+    private void fnOrderHistory() {
 
-        historyListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+        cartList = mDatabaeHelper.fnGetAllHistory(storeBarcode);
+
+
+//
+
+
+        adapter = new CustomHistory(cartList, activity, new MyAdapterListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String code = adapterView.getItemAtPosition(i).toString();
+            public void buttonViewOnClick(View v, int position) {
 
-                Cursor data = historyDatabaseHelper.getItemID(code);
-                int itemID = -1;
-                while(data.moveToNext()){
-                    itemID = data.getInt(0);
-                }
-                if(itemID > -1){
-                    Intent historyDetails = new Intent(HistoryActivity.this, HistoryDetailsActivity.class);
-                    historyDetails.putExtra("id", itemID);
-                    historyDetails.putExtra("code", code);
-                    startActivity(historyDetails);
-                } else {
-                    Toast.makeText(activity.getApplicationContext(), getResources().getText(R.string.error_generate), Toast.LENGTH_LONG).show();
-                }
+            }
+
+            @Override
+            public void imageViewOnClick(View v, int position) {
+              Cart p = cartList.get(position);
+                addCart(p);
+            }
+        });
+
+        //Adding adapter to recyclerview
+        recyclerView.setAdapter(adapter);
+
+
+    }
+
+
+
+    public void addCart(final Cart cart )
+    {
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(activity);
+        LayoutInflater inflater = LayoutInflater.from(activity);
+        final View dialogView = inflater.inflate(R.layout.custom_dialog, null);
+        dialogBuilder.setView(dialogView);
+
+        final EditText edt = (EditText) dialogView.findViewById(R.id.edit1);
+        final TextView unit = (TextView) dialogView.findViewById(R.id.unit);
+
+        dialogBuilder.setTitle("Add Quantity");
+        unit.setText(cart.getProductUnit());
+        dialogBuilder.setPositiveButton("Add to Cart", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                String edtQ =   edt.getText().toString().trim();
+                int value = Integer.parseInt(edtQ);
+
+
+
+                double multiQ = value * cart.getProductTotalPrice();
+
+                cart.setProductQuantity(value);
+                cart.setProductTotalPrice(multiQ);
+
+
+
+
+
+
+
+
+
+
+                mDatabaeHelper.addToCart(cart);
+
+
+
 
             }
         });
+        dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+
+            }
+        });
+        AlertDialog b = dialogBuilder.create();
+        b.show();
     }
+
 }

@@ -2,7 +2,9 @@ package khengat.sagar.scanqrc.activities.generator;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -35,6 +37,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Random;
 
+import khengat.sagar.scanqrc.Constants.Config;
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.activities.MainActivity;
 import khengat.sagar.scanqrc.model.Product;
@@ -76,6 +79,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
     String FOLDER_NAME="ScanQRC";
     FloatingActionButton fab;
     FloatingActionButton fabShare;
+    Gson gson;
     private static final String STATE_TEXT = MainActivity.class.getName();
 
     @Override
@@ -85,6 +89,9 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         product = new Product();
+          gson = new Gson();
+        storeBarcode = new Store();
+
         mDatabaseHandler = new DatabaseHandler(activity);
         textInputLayoutProductName = (TextInputLayout) findViewById(R.id.textInputLayoutProductName);
         textInputLayoutProductBrand = (TextInputLayout) findViewById(R.id.textInputLayoutProductBrand);
@@ -111,7 +118,12 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                 R.array.barcode_formats_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
-        storeBarcode = store;
+        SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+
+        //Fetching the boolean value form sharedpreferences
+        String json = sharedPreferences.getString(Config.STORE_SHARED_PREF, "");
+
+        storeBarcode = gson.fromJson(json, Store.class);
 
 
         // Get intent, action and MINE type and check if the intent was started by a share to modul from an other app
@@ -183,7 +195,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                     product.setProductSize(textInputEditTextProductSize.getText().toString().trim());
                 }
                 product.setStore(storeBarcode);
-                Gson gson = new Gson();
+
                 text2Barcode = gson.toJson(product);
 
                 if(text2Barcode.equals("")){

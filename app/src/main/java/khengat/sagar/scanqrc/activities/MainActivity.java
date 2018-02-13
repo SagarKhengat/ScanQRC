@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
@@ -25,6 +27,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+import com.joanzapata.iconify.widget.IconButton;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -40,6 +43,7 @@ import khengat.sagar.scanqrc.activities.generator.GenerateActivity;
 import khengat.sagar.scanqrc.model.Cart;
 import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
+import khengat.sagar.scanqrc.util.BadgeView;
 import khengat.sagar.scanqrc.util.BottomNavigationViewHelper;
 import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.DatabaseHelper;
@@ -75,7 +79,8 @@ public class MainActivity extends AppCompatActivity {
     Product product;
     Cart cart;
     public CardView cardView;
-
+    LayerDrawable icon;
+    static BadgeView badge;
     Gson gson;
     /**
      * This method handles the main navigation
@@ -147,6 +152,11 @@ public class MainActivity extends AppCompatActivity {
         main_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         main_navigation.clearFocus();
 
+
+
+
+
+
         action_navigation = (BottomNavigationView) findViewById(R.id.main_action_navigation);
         BottomNavigationViewHelper.disableShiftMode(action_navigation);
         action_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
@@ -154,7 +164,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = getIntent();
         store = intent.getParcelableExtra("store");
 
-
+        SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        //Creating editor to store values to shared preferences
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        String saveStore = gson.toJson(store);
+        //Adding values to editor
+        editor.putString(Config.STORE_SHARED_PREF, saveStore).apply();
 
         //If the device were rotated then restore information
         if(savedInstanceState != null){
@@ -209,6 +224,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.optionsmenu, menu);
+        MenuItem itemCart = menu.findItem(R.id.cart);
+
+         icon = (LayerDrawable) itemCart.getIcon();
+       int i =  mDatabaeHelper.fnGetCartCount(store);
+        setBadgeCount(activity, icon, String.valueOf(i));
         return true;
     }
 
@@ -225,6 +245,18 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.logout:
                 logout();
+                return true;
+            case R.id.cart:
+                if(mDatabaeHelper.fnGetCartCount(store)!=0)
+                {
+                    Intent intent = new Intent(MainActivity.this,CartActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+                else
+                {
+                    Toast.makeText(activity, "Cart Empty..", Toast.LENGTH_SHORT).show();
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -354,6 +386,22 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
 
     }
+    public static void setBadgeCount(Context context, LayerDrawable icon, String count) {
+
+
+
+        // Reuse drawable if possible
+        Drawable reuse = icon.findDrawableByLayerId(R.id.ic_badge);
+        if (reuse != null && reuse instanceof BadgeView) {
+            badge = (BadgeView) reuse;
+        } else {
+            badge = new BadgeView(context);
+        }
+
+        badge.setCount(count);
+        icon.mutate();
+        icon.setDrawableByLayerId(R.id.ic_badge, badge);
+    }
 
 
     public void addCart()
@@ -384,7 +432,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-               cart.setProductSize(product.getProductSize());
+
+                cart.setProductSize(product.getProductSize());
                 cart.setStore(store);
                 cart.setProductUnit(product.getProductUnit());
                 cart.setProductBrand(product.getProductBrand());
@@ -397,7 +446,8 @@ public class MainActivity extends AppCompatActivity {
 
                 mDatabaeHelper.addToCart(cart);
 
-
+                int i =  mDatabaeHelper.fnGetCartCount(store);
+                setBadgeCount(activity, icon, String.valueOf(i));
 
 
             }
