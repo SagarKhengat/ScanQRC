@@ -436,4 +436,53 @@ public class DatabaseHandler {
 
 	}
 
+
+
+	public List<Cart> fnGetAllHistory(Store store)
+	{
+
+		List <Cart> mListStores = new ArrayList<>();
+		List <Cart> mListAllStores = fnGetAllCart();
+
+		try {
+//			QueryBuilder < Store, Integer > qb = storeDao.queryBuilder();
+//			Where<Store, Integer> where = qb.where();
+//
+//			where.like( "areaId", area.getAreaId() );//.or().like("customerPrintAs", "%"+nameToSearch+"%");
+//
+//
+//
+//			// It filters only data present in DB fetched at the time of sync.
+//			PreparedQuery < Store> pq = where.prepare();
+//			mListStores = storeDao.query( pq );
+
+
+			for (Cart cart : mListAllStores)
+			{
+
+				for(Cart carta : mListAllStores)
+				{
+
+					if ( carta.getStore().getStoreId()==store.getStoreId()   && !cart.getProductName().equals(carta.getProductName()) && !cart.getProductBrand().equals(carta.getProductBrand()))
+					{
+						mListStores.add(carta);
+					}
+				}
+			}
+
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+
+		return mListStores;
+	}
+
+
+
+
+
+
 }

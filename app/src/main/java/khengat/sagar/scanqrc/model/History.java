@@ -1,13 +1,12 @@
 package khengat.sagar.scanqrc.model;
 
+
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.j256.ormlite.field.DatabaseField;
 
-
-
-public class Cart implements Parcelable {
+public class History implements Parcelable {
     @DatabaseField(canBeNull = true)
 
     private String productName;
@@ -149,18 +148,18 @@ public class Cart implements Parcelable {
         dest.writeString(productCartId);
         dest.writeValue(store);
     }
-    public static final Parcelable.Creator<Cart> CREATOR = new Parcelable.Creator<Cart>() {
+    public static final Parcelable.Creator<History> CREATOR = new Parcelable.Creator<History>() {
         @Override
-        public Cart createFromParcel(Parcel source) {
-            return new Cart(source);
+        public History createFromParcel(Parcel source) {
+            return new History(source);
         }
 
         @Override
-        public Cart[] newArray(int size) {
-            return new Cart[size];
+        public History[] newArray(int size) {
+            return new History[size];
         }
     };
-    public Cart(Parcel in) {
+    public History(Parcel in) {
         productId = in.readInt();
         productName = in.readString();
         store = (Store) in.readValue(Product.class.getClassLoader());
@@ -173,12 +172,12 @@ public class Cart implements Parcelable {
         productTotalPrice = in.readDouble();
     }
 
-    public Cart() {
+    public History() {
     }
 
     @Override
     public String toString() {
-        return "Cart{" +
+        return "History{" +
                 "productName='" + productName + '\'' +
                 ", productDescription='" + productDescription + '\'' +
                 ", store=" + store +

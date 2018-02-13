@@ -20,6 +20,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -33,6 +35,7 @@ import khengat.sagar.scanqrc.Constants.Config;
 import khengat.sagar.scanqrc.LoginActivity;
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.MyAdapterListener;
 
@@ -48,6 +51,8 @@ public class CartActivity extends AppCompatActivity {
     private ArrayList<Double> alTotalAmount;
     private DatabaseHandler mDatabaeHelper;
     final Activity activity = this;
+    Gson gson;
+    Store storeBarcode;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,6 +65,12 @@ public class CartActivity extends AppCompatActivity {
 
         alTotalAmount = new ArrayList<>();
 
+        gson = new Gson();
+        //Fetching the boolean value form sharedpreferences
+        SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        String json = sharedPreferences.getString(Config.STORE_SHARED_PREF, "");
+
+        storeBarcode = gson.fromJson(json, Store.class);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
@@ -96,7 +107,7 @@ public class CartActivity extends AppCompatActivity {
     private void fnOrderHistory()
     {
         int quantity = 0;
-            productList = mDatabaeHelper.fnGetAllCart(store);
+            productList = mDatabaeHelper.fnGetAllCart(storeBarcode);
 
             for (Cart cart : productList) {
                 double d = cart.getProductTotalPrice();
@@ -175,7 +186,7 @@ public class CartActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface arg0, int arg1) {
 
-                        mDatabaeHelper.fnDeleteAllCart(store);
+                        mDatabaeHelper.fnDeleteAllCart(storeBarcode);
 
                         Toast.makeText(activity, "CheckOut done successfully. Thank you ", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(CartActivity.this,MainActivity.class);

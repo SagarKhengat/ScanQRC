@@ -164,7 +164,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = getIntent();
         store = intent.getParcelableExtra("store");
 
-
+        SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        //Creating editor to store values to shared preferences
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        String saveStore = gson.toJson(store);
+        //Adding values to editor
+        editor.putString(Config.STORE_SHARED_PREF, saveStore).apply();
 
         //If the device were rotated then restore information
         if(savedInstanceState != null){

@@ -152,6 +152,10 @@
         "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout/abc_screen_simple.xml"
     },
     {
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout/single_history.xml",
+        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/layout/single_history.xml"
+    },
+    {
         "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
