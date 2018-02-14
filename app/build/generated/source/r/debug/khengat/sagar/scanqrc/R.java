@@ -32,6 +32,10 @@ public final class R {
     public static final class array {
         public static final int barcode_formats_array=0x7f0f0000;
         public static final int formats_geo_array=0x7f0f0001;
+        /** <item>GEO</item>
+<item>TEXT</item>
+<item>VCARD</item>
+         */
         public static final int generators=0x7f0f0002;
         public static final int pref_auto_clipboard_entries=0x7f0f0003;
         public static final int pref_auto_clipboard_values=0x7f0f0004;

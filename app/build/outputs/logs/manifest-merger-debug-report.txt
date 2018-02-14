@@ -1,274 +1,274 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:2:1-101:12
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:2:1-101:12
 	package
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:3:5-36
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:5:5-81
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:6:5-80
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:6:22-77
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:6:22-77
 application
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:8:5-99:19
-MERGED from [com.android.support:design:25.3.1] /home/sagar/.android/build-cache/c866650ea6de11f6f9cbe33e765c86869e18e84d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/sagar/.android/build-cache/258d86ec9b06a9cde9b8388b9c2ec827b149af9a/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /home/sagar/.android/build-cache/f40c4ba2bc974ac90efbee0e46d8d54cfcafce5c/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/sagar/.android/build-cache/c660fe51d575371f5e30c180f164655763f59639/output/AndroidManifest.xml:26:5-20
-MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:45:5-53:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sagar/.android/build-cache/1ba9e92ec7794ac356a8ea213a2ce179d5c0a158/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /home/sagar/.android/build-cache/21deeefe0e93986c35d4dbd7e83332129b29d053/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /home/sagar/.android/build-cache/0edf74223bbf03fe3c0aff2b974672438f59e2bd/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/sagar/.android/build-cache/601ff76545b8f26af2da1e6c9d116e36f9be63ef/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/sagar/.android/build-cache/1ad4cb2259a365ed84119ddb6b30877041216b64/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/sagar/.android/build-cache/1cb1efc555ece19e1f7f689717af02b1ff7875a2/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /home/sagar/.android/build-cache/01e85352a75695031479db9afbb4138b0c5d95f5/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] /home/sagar/.android/build-cache/d84e66a73316a3e10ae35c0a5412a3961e623048/output/AndroidManifest.xml:26:5-20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:8:5-99:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\c0e3893b948c28fb891192fd7fefd132cb6ad67b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ce1ecafd31a96dcb4b4ddecc8adfb47019c37a47\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\7538527b4a9dbc8fda2d0292dc1678495498474e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\bcb2eeda0fe33decf0e6f7bbd5ba5ed64d4b20af\output\AndroidManifest.xml:26:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:45:5-53:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sagar Khengat\.android\build-cache\f69bdb51c61c4a564705d7db0bbf6ea624017f92\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\7bd3d78306c648758b0e82ed0a0c7c1ecd1e2776\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\6b4c0859853940e9b4586120f447a0ef4fb0576e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\0b939a8d1ad4c1c3fb71e92514b6119b60c47e44\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\086cf853a10c6f38b8de5852d1322e55a100386c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\e7ead4a276c773deb69aeffb72365da4ff84c81f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ae8efc30cf76738e70fecf852683b8902923762d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\9e8143de18a9d67e247962bbb0d5218bc1b529ee\output\AndroidManifest.xml:26:5-20
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:12:9-35
 	android:allowBackup
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:13:9-40
 activity#khengat.sagar.scanqrc.activities.MainActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:14:9-16:48
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:14:9-16:48
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:16:13-45
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:16:13-45
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:15:13-52
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:15:13-52
 activity#khengat.sagar.scanqrc.activities.generator.GenerateActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:17:9-21:59
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:17:9-21:59
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:19:13-54
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:19:13-54
 	android:parentActivityName
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:20:13-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:20:13-66
 	android:theme
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:21:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:18:13-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:18:13-66
 activity#khengat.sagar.scanqrc.activities.HistoryActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:22:9-24:56
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:22:9-24:56
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:24:13-53
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:24:13-53
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:23:13-55
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:23:13-55
 activity#khengat.sagar.scanqrc.activities.HistoryDetailsActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:25:9-27:64
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:25:9-27:64
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:27:13-61
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:27:13-61
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:26:13-62
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:26:13-62
 activity#khengat.sagar.scanqrc.activities.SettingsActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:28:9-35:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:28:9-35:20
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:30:13-60
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:30:13-60
 	android:parentActivityName
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:31:13-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:31:13-66
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:29:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:29:13-56
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:32:13-34:81
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:32:13-34:81
 	android:value
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:34:17-78
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:34:17-78
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:33:17-63
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:33:17-63
 activity#khengat.sagar.scanqrc.activities.generator.GeoGeneratorActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:36:9-44:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:36:9-44:20
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:38:13-65
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:38:13-65
 	android:parentActivityName
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:39:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:39:13-80
 	android:theme
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:40:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:37:13-70
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:37:13-70
 activity#khengat.sagar.scanqrc.activities.generator.TextGeneratorActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:45:9-61:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:45:9-61:20
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:47:13-54
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:47:13-54
 	android:parentActivityName
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:48:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:48:13-80
 	android:theme
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:49:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:46:13-71
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:46:13-71
 intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:50:13-56:29
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:50:13-56:29
 action#android.intent.action.SEND
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:51:17-69
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:51:25-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:51:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:53:17-76
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:53:17-76
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:53:27-73
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:53:27-73
 data
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:55:17-55
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:55:17-55
 	android:mimeType
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:55:23-52
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:55:23-52
 activity#khengat.sagar.scanqrc.activities.generator.BarcodeGenerateActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:62:9-78:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:62:9-78:20
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:64:13-63
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:64:13-63
 	android:parentActivityName
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:65:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:65:13-80
 	android:theme
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:66:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:66:13-56
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:63:13-73
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:63:13-73
 activity#khengat.sagar.scanqrc.activities.generator.VCardGeneratorActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:79:9-87:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:79:9-87:20
 	android:label
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:81:13-67
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:81:13-67
 	android:parentActivityName
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:82:13-80
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:82:13-80
 	android:theme
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:83:13-56
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:83:13-56
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:80:13-72
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:80:13-72
 activity#khengat.sagar.scanqrc.SplashScreen
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:88:9-94:20
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:88:9-94:20
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:88:19-47
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:88:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:89:13-93:29
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:89:13-93:29
 action#android.intent.action.MAIN
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:90:17-69
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:90:17-69
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:90:25-66
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:90:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:92:17-77
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:92:17-77
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:92:27-74
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:92:27-74
 activity#khengat.sagar.scanqrc.Register
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:95:9-46
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:95:9-46
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:95:19-43
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:95:19-43
 activity#khengat.sagar.scanqrc.LoginActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:96:9-51
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:96:9-51
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:96:19-48
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:96:19-48
 activity#khengat.sagar.scanqrc.StoreListing
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:97:9-50
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:97:9-50
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:97:19-47
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:97:19-47
 activity#khengat.sagar.scanqrc.activities.CartActivity
-ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:98:9-70
+ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:98:9-70
 	android:name
-		ADDED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml:98:19-58
+		ADDED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml:98:19-58
 uses-sdk
-INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] /home/sagar/.android/build-cache/c866650ea6de11f6f9cbe33e765c86869e18e84d/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/sagar/.android/build-cache/258d86ec9b06a9cde9b8388b9c2ec827b149af9a/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/sagar/.android/build-cache/5e17add28e9553c59d8cbf231e271f1f0123ee0f/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /home/sagar/.android/build-cache/f40c4ba2bc974ac90efbee0e46d8d54cfcafce5c/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/sagar/.android/build-cache/c660fe51d575371f5e30c180f164655763f59639/output/AndroidManifest.xml:20:5-43
-MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:19:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sagar/.android/build-cache/1ba9e92ec7794ac356a8ea213a2ce179d5c0a158/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.joanzapata.iconify:android-iconify-fontawesome:2.1.0] /home/sagar/.android/build-cache/b5bbf1f746cbceb48885eb68a8b971a2ad64e401/output/AndroidManifest.xml:6:5-43
-MERGED from [com.joanzapata.iconify:android-iconify:2.1.0] /home/sagar/.android/build-cache/bcc484effb8ae1985464e99982c78c740585e957/output/AndroidManifest.xml:6:5-43
-MERGED from [com.android.support:support-v4:25.3.1] /home/sagar/.android/build-cache/21deeefe0e93986c35d4dbd7e83332129b29d053/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /home/sagar/.android/build-cache/0edf74223bbf03fe3c0aff2b974672438f59e2bd/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/sagar/.android/build-cache/601ff76545b8f26af2da1e6c9d116e36f9be63ef/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/sagar/.android/build-cache/1ad4cb2259a365ed84119ddb6b30877041216b64/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/sagar/.android/build-cache/1cb1efc555ece19e1f7f689717af02b1ff7875a2/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /home/sagar/.android/build-cache/01e85352a75695031479db9afbb4138b0c5d95f5/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:25.3.1] /home/sagar/.android/build-cache/d84e66a73316a3e10ae35c0a5412a3961e623048/output/AndroidManifest.xml:20:5-43
+INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\c0e3893b948c28fb891192fd7fefd132cb6ad67b\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ce1ecafd31a96dcb4b4ddecc8adfb47019c37a47\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\c87b43da0e15713e5d52c6d50f3701dbf82279d5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\7538527b4a9dbc8fda2d0292dc1678495498474e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\bcb2eeda0fe33decf0e6f7bbd5ba5ed64d4b20af\output\AndroidManifest.xml:20:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sagar Khengat\.android\build-cache\f69bdb51c61c4a564705d7db0bbf6ea624017f92\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.joanzapata.iconify:android-iconify-fontawesome:2.1.0] C:\Users\Sagar Khengat\.android\build-cache\d82de5b042841997d144987a34dabe33183345c5\output\AndroidManifest.xml:6:5-43
+MERGED from [com.joanzapata.iconify:android-iconify:2.1.0] C:\Users\Sagar Khengat\.android\build-cache\9bb3ffbf189cfe39d2283de1d0ec12f8efa3ecd5\output\AndroidManifest.xml:6:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\7bd3d78306c648758b0e82ed0a0c7c1ecd1e2776\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\6b4c0859853940e9b4586120f447a0ef4fb0576e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\0b939a8d1ad4c1c3fb71e92514b6119b60c47e44\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\086cf853a10c6f38b8de5852d1322e55a100386c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\e7ead4a276c773deb69aeffb72365da4ff84c81f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ae8efc30cf76738e70fecf852683b8902923762d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\9e8143de18a9d67e247962bbb0d5218bc1b529ee\output\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /home/sagar/.android/build-cache/c866650ea6de11f6f9cbe33e765c86869e18e84d/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Prog\Android\ScanQRC\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /home/sagar/.android/build-cache/c866650ea6de11f6f9cbe33e765c86869e18e84d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/sagar/.android/build-cache/258d86ec9b06a9cde9b8388b9c2ec827b149af9a/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/sagar/.android/build-cache/5e17add28e9553c59d8cbf231e271f1f0123ee0f/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /home/sagar/.android/build-cache/f40c4ba2bc974ac90efbee0e46d8d54cfcafce5c/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/sagar/.android/build-cache/c660fe51d575371f5e30c180f164655763f59639/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/sagar/.android/build-cache/21deeefe0e93986c35d4dbd7e83332129b29d053/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/sagar/.android/build-cache/0edf74223bbf03fe3c0aff2b974672438f59e2bd/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/sagar/.android/build-cache/601ff76545b8f26af2da1e6c9d116e36f9be63ef/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/sagar/.android/build-cache/1ad4cb2259a365ed84119ddb6b30877041216b64/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/sagar/.android/build-cache/1cb1efc555ece19e1f7f689717af02b1ff7875a2/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/sagar/.android/build-cache/01e85352a75695031479db9afbb4138b0c5d95f5/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:cardview-v7:25.3.1] /home/sagar/.android/build-cache/d84e66a73316a3e10ae35c0a5412a3961e623048/output/AndroidManifest.xml:22:5-24:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\c0e3893b948c28fb891192fd7fefd132cb6ad67b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ce1ecafd31a96dcb4b4ddecc8adfb47019c37a47\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\c87b43da0e15713e5d52c6d50f3701dbf82279d5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\7538527b4a9dbc8fda2d0292dc1678495498474e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\bcb2eeda0fe33decf0e6f7bbd5ba5ed64d4b20af\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\7bd3d78306c648758b0e82ed0a0c7c1ecd1e2776\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\6b4c0859853940e9b4586120f447a0ef4fb0576e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\0b939a8d1ad4c1c3fb71e92514b6119b60c47e44\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\086cf853a10c6f38b8de5852d1322e55a100386c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\e7ead4a276c773deb69aeffb72365da4ff84c81f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\ae8efc30cf76738e70fecf852683b8902923762d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\9e8143de18a9d67e247962bbb0d5218bc1b529ee\output\AndroidManifest.xml:22:5-24:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /home/sagar/.android/build-cache/c866650ea6de11f6f9cbe33e765c86869e18e84d/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /home/sagar/.android/build-cache/c866650ea6de11f6f9cbe33e765c86869e18e84d/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Sagar Khengat\.android\build-cache\252d5cba6a5b11427e90310fa0c154bd7071bcfa\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.CAMERA
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:21:5-65
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:21:22-62
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:21:22-62
 uses-feature#android.hardware.camera
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:24:5-26:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:26:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:25:9-47
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:25:9-47
 uses-feature#android.hardware.camera.front
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:27:5-29:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:29:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:29:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:28:9-53
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:28:9-53
 uses-feature#android.hardware.camera.autofocus
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:32:5-34:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:32:5-34:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:34:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:34:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:33:9-57
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:33:9-57
 uses-feature#android.hardware.camera.flash
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:35:5-37:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:35:5-37:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:37:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:37:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:36:9-53
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:36:9-53
 uses-feature#android.hardware.screen.landscape
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:38:5-40:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:38:5-40:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:40:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:40:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:39:9-57
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:39:9-57
 uses-feature#android.hardware.wifi
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:41:5-43:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:41:5-43:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:43:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:43:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:42:9-45
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:42:9-45
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:46:9-52:63
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:46:9-52:63
 	android:clearTaskOnLaunch
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:48:13-45
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:48:13-45
 	android:screenOrientation
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:49:13-56
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:49:13-56
 	android:stateNotNeeded
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:50:13-42
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:50:13-42
 	android:windowSoftInputMode
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:52:13-60
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:52:13-60
 	android:theme
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:51:13-54
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:51:13-54
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/sagar/.android/build-cache/a90408cfe1c5ee69321eef3f6207701e192731fc/output/AndroidManifest.xml:47:13-74
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Sagar Khengat\.android\build-cache\ab0e0dc47233adb047ec63937717d2aa6108347a\output\AndroidManifest.xml:47:13-74

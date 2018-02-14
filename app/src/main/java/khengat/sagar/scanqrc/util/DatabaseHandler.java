@@ -465,7 +465,7 @@ public class DatabaseHandler {
 
 					if ( carta.getStore().getStoreId()==store.getStoreId()   && !cart.getProductName().equals(carta.getProductName()) && !cart.getProductBrand().equals(carta.getProductBrand()))
 					{
-						mListStores.add(carta);
+						mListStores.remove(carta);
 					}
 				}
 			}

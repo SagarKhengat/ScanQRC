@@ -1,50 +1,74 @@
 [
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_media_action.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
-        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout-v11/notification_template_big_media_narrow.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
-        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout-v11/notification_media_action.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout-v11/notification_media_cancel_action.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout-v11/notification_template_big_media_custom.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout-v11/notification_template_big_media.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout-v11\\notification_template_big_media.xml"
     }
 ]
