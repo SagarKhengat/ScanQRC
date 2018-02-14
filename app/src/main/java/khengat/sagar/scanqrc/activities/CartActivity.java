@@ -35,11 +35,13 @@ import khengat.sagar.scanqrc.Constants.Config;
 import khengat.sagar.scanqrc.LoginActivity;
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.History;
+import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.MyAdapterListener;
 
-import static khengat.sagar.scanqrc.activities.MainActivity.store;
+
 
 public class CartActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -82,7 +84,7 @@ public class CartActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-
+        productList = mDatabaeHelper.fnGetAllCart(storeBarcode);
 
 
 
@@ -107,7 +109,7 @@ public class CartActivity extends AppCompatActivity {
     private void fnOrderHistory()
     {
         int quantity = 0;
-            productList = mDatabaeHelper.fnGetAllCart(storeBarcode);
+
 
             for (Cart cart : productList) {
                 double d = cart.getProductTotalPrice();
@@ -185,6 +187,23 @@ public class CartActivity extends AppCompatActivity {
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface arg0, int arg1) {
+
+                        for(Cart cart : productList)
+                        {
+                            History history = new History();
+                           Product product =  mDatabaeHelper.fnGetProductFromCart(cart);
+                            history.setProductId(product.getProductId());
+                            history.setProductSize(product.getProductSize());
+                            history.setStore(storeBarcode);
+                            history.setProductUnit(product.getProductUnit());
+                            history.setProductBrand(product.getProductBrand());
+                            history.setProductName(product.getProductName());
+                            history.setProductDescription(product.getProductDescription());
+                            history.setProductQuantity(product.getProductQuantity());
+                            history.setProductTotalPrice(product.getProductTotalPrice());
+
+                            mDatabaeHelper.addProductHistory(history);
+                        }
 
                         mDatabaeHelper.fnDeleteAllCart(storeBarcode);
 

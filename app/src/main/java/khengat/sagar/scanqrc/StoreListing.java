@@ -104,6 +104,7 @@ public class StoreListing extends AppCompatActivity {
         ft = manager.beginTransaction();
         ft.replace(android.R.id.tabcontent, fragment);
         fragment.setArguments(bundle);
+        ft.addToBackStack(null);
         ft.commit();
 
     }

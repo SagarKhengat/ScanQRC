@@ -21,7 +21,7 @@
     <Spinner
         android:id="@+id/spinnerArea"
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="wrap_content"
         android:layout_weight="0.00" />
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabArea"
@@ -48,7 +48,7 @@
     <Spinner
         android:id="@+id/spinnerStore"
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="wrap_content"
         android:layout_weight="0.00" />
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabStore"
@@ -63,6 +63,14 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.00"
+        android:text="Go"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold" />
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabGo"
         android:layout_width="55dp"

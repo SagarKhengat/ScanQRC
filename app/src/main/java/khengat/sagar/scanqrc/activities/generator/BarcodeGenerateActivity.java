@@ -19,6 +19,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -43,8 +44,7 @@ import khengat.sagar.scanqrc.activities.MainActivity;
 import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.util.DatabaseHandler;
-
-import static khengat.sagar.scanqrc.activities.MainActivity.store;
+import khengat.sagar.scanqrc.util.InputValidation;
 
 
 /**
@@ -59,6 +59,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
     private TextInputLayout textInputLayoutProductPrice;
     private TextInputLayout textInputLayoutProductUnit;
     private TextInputLayout textInputLayoutProductStore;
+    private TextInputLayout textInputLayoutProductSize;
 
     private TextInputEditText textInputEditTextProductName;
     private TextInputEditText textInputEditTextProductBrand;
@@ -80,6 +81,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
     FloatingActionButton fab;
     FloatingActionButton fabShare;
     Gson gson;
+    InputValidation inputValidation ;
     private static final String STATE_TEXT = MainActivity.class.getName();
 
     @Override
@@ -91,6 +93,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
         product = new Product();
           gson = new Gson();
         storeBarcode = new Store();
+        inputValidation = new InputValidation(activity);
 
         mDatabaseHandler = new DatabaseHandler(activity);
         textInputLayoutProductName = (TextInputLayout) findViewById(R.id.textInputLayoutProductName);
@@ -100,6 +103,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
         textInputLayoutProductUnit = (TextInputLayout) findViewById(R.id.textInputLayoutProductUnit);
 
         textInputLayoutProductStore = (TextInputLayout) findViewById(R.id.textInputLayoutProductStore);
+        textInputLayoutProductSize= (TextInputLayout) findViewById(R.id.textInputLayoutProductSize);
 
         textInputEditTextProductName = (TextInputEditText) findViewById(R.id.textInputEditTextProductName);
         textInputEditTextProductBrand = (TextInputEditText) findViewById(R.id.textInputEditTextProductBrand);
@@ -125,7 +129,11 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
 
         storeBarcode = gson.fromJson(json, Store.class);
 
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (ActivityCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(activity, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
+            }
+        }
         // Get intent, action and MINE type and check if the intent was started by a share to modul from an other app
         Intent intent = getIntent();
         String action = intent.getAction();
@@ -145,14 +153,26 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
             @Override
             public void onClick(View view) {
 //                text2Barcode = text.getText().toString().trim();
-                if(textInputEditTextProductName.getText().toString().trim()==null)
+
+                try {
+                    InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
+                    if (inputMethodManager.isAcceptingText()) {
+                        inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0); // this method use to close keyboard forcefully
+                    }
+                }
+                catch (Exception e)
                 {
-                    textInputEditTextProductName.setError("Please Enter Product Name");
+                    e.printStackTrace();
+                }
+                if (!inputValidation.isInputEditTextFilled(textInputEditTextProductName, textInputLayoutProductName, "Enter Product Name")) {
+                    return;
                 }
                 else
                 {
                     product.setProductName(textInputEditTextProductName.getText().toString().trim());
                 }
+
+
                 if(textInputEditTextProductBrand.getText().toString().trim()==null)
                 {
                 }
@@ -169,26 +189,26 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                     product.setProductDescription(textInputEditTextProductDescription.getText().toString().trim());
                 }
 
-                if(textInputEditTextProductPrice.getText().toString().trim()==null)
+                if(!inputValidation.isInputEditTextFilled(textInputEditTextProductPrice, textInputLayoutProductPrice, "Enter Product Price"))
                 {
-                    textInputEditTextProductPrice.setError("Please Enter Product Price");
+                    return;
                 }
                 else
                 {
                     product.setProductTotalPrice(Double.parseDouble(textInputEditTextProductPrice.getText().toString().trim()));
                 }
 
-                if(textInputEditTextProductUnit.getText().toString().trim()==null)
+                if(!inputValidation.isInputEditTextFilled(textInputEditTextProductUnit, textInputLayoutProductUnit, "Enter Product Unit"))
                 {
-                    textInputEditTextProductUnit.setError("Please Enter Product Unit");
+                    return;
                 }
                 else
                 {
                     product.setProductUnit(textInputEditTextProductUnit.getText().toString().trim());
                 }
-                if(textInputEditTextProductSize.getText().toString().trim()==null)
+                if(!inputValidation.isInputEditTextFilled(textInputEditTextProductSize, textInputLayoutProductSize, "Enter Product Size"))
                 {
-                    textInputEditTextProductSize.setError("Please Enter Product Size");
+                    return;
                 }
                 else
                 {
@@ -208,11 +228,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                         bitmap = barcodeEncoder.createBitmap(bitMatrix);
                         image.setImageBitmap(bitmap);
                         mDatabaseHandler.addProduct(product);
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                            if (ActivityCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-                                ActivityCompat.requestPermissions(activity, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
-                            }
-                        }
+
 
                         saveImageToSDCard(bitmap,product.getProductName(),storeBarcode.getStoreName());
                         Toast.makeText(activity.getApplicationContext(), getResources().getText(R.string.success_generate), Toast.LENGTH_LONG).show();

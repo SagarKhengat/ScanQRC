@@ -25,9 +25,9 @@ public class Cart implements Parcelable {
     private String productUnit;
 
 
-    @DatabaseField(canBeNull = true,generatedId = true)
+    @DatabaseField(canBeNull = true,id = true)
 
-    private Integer productId;
+    private int productId;
 
 
     @DatabaseField(canBeNull = true)
@@ -107,11 +107,11 @@ public class Cart implements Parcelable {
         this.store = store;
     }
 
-    public Integer getProductId() {
+    public int getProductId() {
         return productId;
     }
 
-    public void setProductId(Integer productId) {
+    public void setProductId(int productId) {
         this.productId = productId;
     }
 

@@ -27,6 +27,7 @@ import java.util.List;
 
 import khengat.sagar.scanqrc.model.Area;
 import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.History;
 import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.model.User;
@@ -41,6 +42,7 @@ public class DatabaseHandler {
 	private RuntimeExceptionDao<User, Integer> userDao;
 	private RuntimeExceptionDao<Product, Integer> productDao;
 	private RuntimeExceptionDao<Cart, Integer> cartDao;
+	private RuntimeExceptionDao<History, Integer> historyDao;
 
 
 	private DatabaseHelper databaseHelper;
@@ -66,6 +68,7 @@ public class DatabaseHandler {
 		userDao = getHelper().getUserDao();
 		productDao = getHelper().getProductDao();
 		cartDao = getHelper().getCartDao();
+		historyDao = getHelper().getHistoryDao();
 
 
 
@@ -176,6 +179,46 @@ public class DatabaseHandler {
 	}
 
 
+	public List<History> fnGetAllHistory() {
+		List< History > mListIndustry = new ArrayList<>();
+
+		try {
+			QueryBuilder< History, Integer > queryBuilder = historyDao.queryBuilder();
+			PreparedQuery< History > preparedQuery = null;
+			preparedQuery = queryBuilder.prepare();
+			mListIndustry = historyDao.query( preparedQuery );
+		} catch ( SQLException e ) {
+			e.printStackTrace();
+		} catch(OutOfMemoryError e) {
+			e.printStackTrace();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+
+		return mListIndustry;
+	}
+
+	public List<Product> fnGetAllProduct() {
+		List< Product > mListIndustry = new ArrayList<>();
+
+		try {
+			QueryBuilder< Product, Integer > queryBuilder = productDao.queryBuilder();
+			PreparedQuery< Product > preparedQuery = null;
+			preparedQuery = queryBuilder.prepare();
+			mListIndustry = productDao.query( preparedQuery );
+		} catch ( SQLException e ) {
+			e.printStackTrace();
+		} catch(OutOfMemoryError e) {
+			e.printStackTrace();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+
+		return mListIndustry;
+	}
+
+
+
 	public List<Cart> fnGetAllCart() {
 		List< Cart > mListIndustry = new ArrayList<>();
 
@@ -194,6 +237,7 @@ public class DatabaseHandler {
 
 		return mListIndustry;
 	}
+
 
 
 	public List<Area> fnGetAllArea() {
@@ -294,6 +338,7 @@ public class DatabaseHandler {
 			e.printStackTrace();
 			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
 		} catch(Exception e) {
+			Toast.makeText( context, "Something went wrong. Please try again.", Toast.LENGTH_LONG ).show();
 			e.printStackTrace();
 		}
 	}
@@ -438,10 +483,120 @@ public class DatabaseHandler {
 
 
 
-	public List<Cart> fnGetAllHistory(Store store)
+	public List<History> fnGetAllHistory(Store store)
 	{
 
-		List <Cart> mListStores = new ArrayList<>();
+		List <History> mListStores = new ArrayList<>();
+		List <History> mListAllStores = fnGetAllHistory();
+
+		try {
+//			QueryBuilder < Store, Integer > qb = storeDao.queryBuilder();
+//			Where<Store, Integer> where = qb.where();
+//
+//			where.like( "areaId", area.getAreaId() );//.or().like("customerPrintAs", "%"+nameToSearch+"%");
+//
+//
+//
+//			// It filters only data present in DB fetched at the time of sync.
+//			PreparedQuery < Store> pq = where.prepare();
+//			mListStores = storeDao.query( pq );
+
+
+			for (History event : mListAllStores) {
+				boolean isFound = false;
+				// check if the event name exists in noRepeat
+				for (History e : mListStores) {
+					if (e.getProductName().equals(event.getProductName()) && e.getProductBrand().equals(event.getProductBrand()))
+					isFound = true;
+					break;
+				}
+				if (!isFound) mListStores.add(event);
+			}
+
+
+//			for (History cart : mListAllStores)
+//			{
+//
+//				mListStores.add(cart);
+//
+//				for(History carta : mListStores)
+//				{
+//
+//					if (  cart.getProductName().equals(carta.getProductName()) && cart.getProductBrand().equals(carta.getProductBrand()))
+//					{
+//						mListAllStores.remove(carta);
+//					}
+//				}
+//			}
+
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+
+		return mListStores;
+	}
+
+
+
+	public void addProductHistory(History product) {
+		try
+		{
+			historyDao.createIfNotExists( product );
+		} catch(OutOfMemoryError e) {
+			e.printStackTrace();
+			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public Product fnGetProductFromCart(Cart cart)
+	{
+
+
+
+		List <Product> mListAllStores = fnGetAllProduct();
+
+		try {
+//			QueryBuilder < Store, Integer > qb = storeDao.queryBuilder();
+//			Where<Store, Integer> where = qb.where();
+//
+//			where.like( "areaId", area.getAreaId() );//.or().like("customerPrintAs", "%"+nameToSearch+"%");
+//
+//
+//
+//			// It filters only data present in DB fetched at the time of sync.
+//			PreparedQuery < Store> pq = where.prepare();
+//			mListStores = storeDao.query( pq );
+
+
+			for (Product product : mListAllStores)
+			{
+					if(product.getProductId() == cart.getProductId())
+					{
+						return product;
+					}
+			}
+
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+
+		return null;
+	}
+
+
+	public Cart fnGetCartFromCartHistory(History cart)
+	{
+
+
+
 		List <Cart> mListAllStores = fnGetAllCart();
 
 		try {
@@ -457,16 +612,11 @@ public class DatabaseHandler {
 //			mListStores = storeDao.query( pq );
 
 
-			for (Cart cart : mListAllStores)
+			for (Cart product : mListAllStores)
 			{
-
-				for(Cart carta : mListAllStores)
+				if(product.getProductId() == cart.getProductId())
 				{
-
-					if ( carta.getStore().getStoreId()==store.getStoreId()   && !cart.getProductName().equals(carta.getProductName()) && !cart.getProductBrand().equals(carta.getProductBrand()))
-					{
-						mListStores.remove(carta);
-					}
+					return product;
 				}
 			}
 
@@ -477,12 +627,8 @@ public class DatabaseHandler {
 		}
 
 
-		return mListStores;
+		return null;
 	}
-
-
-
-
 
 
 }

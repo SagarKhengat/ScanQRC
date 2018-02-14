@@ -12,6 +12,7 @@ import java.util.List;
 
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.History;
 import khengat.sagar.scanqrc.util.MyAdapterListener;
 
 /**
@@ -25,11 +26,11 @@ public class CustomHistory extends RecyclerView.Adapter<CustomHistory.ViewHolder
     public MyAdapterListener onClickListener;
 
 
-    List<Cart> productList;
+    List<History> productList;
     Cart product;
 
 
-    public CustomHistory(List<Cart> products, Context context, MyAdapterListener listener){
+    public CustomHistory(List<History> products, Context context, MyAdapterListener listener){
         super();
         //Getting all the superheroes
         this.productList = products;
@@ -55,7 +56,7 @@ public class CustomHistory extends RecyclerView.Adapter<CustomHistory.ViewHolder
     @Override
     public void onBindViewHolder(final CustomHistory.ViewHolder holder, int position) {
 
-        final Cart product =  productList.get(position);
+        final History product =  productList.get(position);
 
 
 
