@@ -139,7 +139,7 @@ public class AddStoreorAreaFragment extends Fragment {
 						area1.setAreaName(areaName);
 
 						db.addArea(area1);
-						Toast.makeText(context, "Added Area"+areaName+"Successfully", Toast.LENGTH_SHORT).show();
+						Toast.makeText(context, "Added Area "+areaName+" Successfully", Toast.LENGTH_SHORT).show();
 						setUpFragment(new StoreListingFragment(),"Area");
 					}
 				}
@@ -149,7 +149,7 @@ public class AddStoreorAreaFragment extends Fragment {
 						store.setStoreName(storeName);
 						store.setArea(area);
 						db.addStore(store);
-						Toast.makeText(context, "Added Store"+storeName+"Successfully", Toast.LENGTH_SHORT).show();
+						Toast.makeText(context, "Added Store "+storeName+" Successfully", Toast.LENGTH_SHORT).show();
 						setUpFragment(new StoreListingFragment(),"Store");
 					}
 				}

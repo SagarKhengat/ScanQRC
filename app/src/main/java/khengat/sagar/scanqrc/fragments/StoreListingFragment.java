@@ -3,6 +3,7 @@ package khengat.sagar.scanqrc.fragments;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TextInputEditText;
@@ -16,11 +17,15 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.gson.Gson;
 
 import java.util.List;
 
 import khengat.sagar.scanqrc.Adapters.SpinnerAreaAdapter;
 import khengat.sagar.scanqrc.Adapters.SpinnerStoreAdapter;
+import khengat.sagar.scanqrc.Constants.Config;
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.model.Area;
 import khengat.sagar.scanqrc.model.Store;
@@ -49,6 +54,7 @@ public class StoreListingFragment extends Fragment {
     private SpinnerAreaAdapter areaAdapter;
     private SpinnerStoreAdapter storeAdapter;
        static String storeName;
+    Gson gson;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +64,7 @@ public class StoreListingFragment extends Fragment {
 
         mDatabaeHelper = new DatabaseHandler(getActivity());
 
-
+        gson = new Gson();
 
 
 
@@ -100,9 +106,21 @@ public class StoreListingFragment extends Fragment {
         fabGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent accountsIntent = new Intent(getActivity(), khengat.sagar.scanqrc.activities.MainActivity.class);
-                accountsIntent.putExtra("store",store);
-                startActivity(accountsIntent);
+                if(mDatabaeHelper.fnGetAllArea().size()!=0 && mDatabaeHelper.fnGetAllStore().size()!=0) {
+                    Intent accountsIntent = new Intent(getActivity(), khengat.sagar.scanqrc.activities.MainActivity.class);
+                    accountsIntent.putExtra("store", store);
+                    SharedPreferences sharedPreferences = getActivity().getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+                    //Creating editor to store values to shared preferences
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    String saveStore = gson.toJson(store);
+                    //Adding values to editor
+                    editor.putString(Config.STORE_SHARED_PREF, saveStore).apply();
+                    startActivity(accountsIntent);
+                }
+                else
+                {
+                    Toast.makeText(getActivity(), "Please add store or area", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });

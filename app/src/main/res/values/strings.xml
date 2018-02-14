@@ -53,7 +53,7 @@
 
     </string-array>
     <!-- TextGeneratorActivity Erorrs-->
-    <string name="error_text_first">First type in some Text</string>
+    <string name="error_text_first">Something went wrong. Please try again..</string>
     <string name="error_generate">No valid input for this format</string>
     <string name="success_generate">QR Code generated and saved in memory successfully</string>
 

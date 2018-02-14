@@ -16,6 +16,7 @@ import java.sql.SQLException;
 import khengat.sagar.scanqrc.R;
 import khengat.sagar.scanqrc.model.Area;
 import khengat.sagar.scanqrc.model.Cart;
+import khengat.sagar.scanqrc.model.History;
 import khengat.sagar.scanqrc.model.Product;
 import khengat.sagar.scanqrc.model.Store;
 import khengat.sagar.scanqrc.model.User;
@@ -44,6 +45,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 	private RuntimeExceptionDao<User, Integer> userDao= null;
 	private RuntimeExceptionDao<Product, Integer> productDao= null;
 	private RuntimeExceptionDao<Cart, Integer> cartDao= null;
+	private RuntimeExceptionDao<History, Integer> historyDao= null;
 
 
 	 Context context1;
@@ -102,6 +104,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 			TableUtils.createTable(connectionSource, User.class);
 			TableUtils.createTable(connectionSource, Product.class);
 			TableUtils.createTable(connectionSource, Cart.class);
+			TableUtils.createTable(connectionSource, History.class);
 			db.execSQL(CREATE_SCANNED_TABLE);
 
 
@@ -130,6 +133,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 			TableUtils.dropTable(connectionSource, User.class, true);
 			TableUtils.dropTable(connectionSource, Product.class, true);
 			TableUtils.dropTable(connectionSource, Cart.class, true);
+			TableUtils.dropTable(connectionSource, History.class, true);
 
 			db.execSQL(DROP_SCANNED_TABLE);
 
@@ -187,7 +191,12 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 	}
 
 
-
+	public RuntimeExceptionDao<History, Integer> getHistoryDao() {
+		if (historyDao == null) {
+			historyDao = getRuntimeExceptionDao(History.class);
+		}
+		return historyDao;
+	}
 
 	/**
 	 * Close the database connections and clear any cached DAOs.
@@ -200,6 +209,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 		userDao = null;
 		productDao = null;
 		cartDao = null;
+		historyDao = null;
 
 	}
 

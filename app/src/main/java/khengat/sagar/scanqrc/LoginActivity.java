@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
+import android.widget.Toast;
 
 
 import khengat.sagar.scanqrc.Constants.Config;
@@ -138,11 +139,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             emptyInputEditText();
             startActivity(accountsIntent);
             finish();
+            Toast.makeText(activity, "Login Success", Toast.LENGTH_SHORT).show();
 
 
         } else {
             // Snack Bar to show success message that record is wrong
-            Snackbar.make(nestedScrollView, getString(R.string.error_valid_email_password), Snackbar.LENGTH_LONG).show();
+            Toast.makeText(activity, getString(R.string.error_valid_email_password), Toast.LENGTH_SHORT).show();
         }
     }
 

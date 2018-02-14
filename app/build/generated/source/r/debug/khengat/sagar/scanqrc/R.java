@@ -32,6 +32,10 @@ public final class R {
     public static final class array {
         public static final int barcode_formats_array=0x7f0f0000;
         public static final int formats_geo_array=0x7f0f0001;
+        /** <item>GEO</item>
+<item>TEXT</item>
+<item>VCARD</item>
+         */
         public static final int generators=0x7f0f0002;
         public static final int pref_auto_clipboard_entries=0x7f0f0003;
         public static final int pref_auto_clipboard_values=0x7f0f0004;
@@ -3298,13 +3302,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f02008b;
-        public static final int avd_hide_password_2=0x7f02008c;
-        public static final int avd_hide_password_3=0x7f02008d;
+        public static final int avd_hide_password_1=0x7f02008c;
+        public static final int avd_hide_password_2=0x7f02008d;
+        public static final int avd_hide_password_3=0x7f02008e;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f02008e;
-        public static final int avd_show_password_2=0x7f02008f;
-        public static final int avd_show_password_3=0x7f020090;
+        public static final int avd_show_password_1=0x7f02008f;
+        public static final int avd_show_password_2=0x7f020090;
+        public static final int avd_show_password_3=0x7f020091;
         public static final int badge_layout=0x7f020055;
         public static final int buttonshape=0x7f020056;
         public static final int cart_outline=0x7f020057;
@@ -3349,16 +3353,17 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f02007e;
         public static final int notification_bg_normal_pressed=0x7f02007f;
         public static final int notification_icon_background=0x7f020080;
-        public static final int notification_template_icon_bg=0x7f020089;
-        public static final int notification_template_icon_low_bg=0x7f02008a;
+        public static final int notification_template_icon_bg=0x7f02008a;
+        public static final int notification_template_icon_low_bg=0x7f02008b;
         public static final int notification_tile_bg=0x7f020081;
         public static final int notify_panel_notification_icon_bg=0x7f020082;
         public static final int product=0x7f020083;
         public static final int rmv=0x7f020084;
         public static final int search_shape=0x7f020085;
         public static final int shape=0x7f020086;
-        public static final int side_nav_bar=0x7f020087;
-        public static final int sign_in_button=0x7f020088;
+        public static final int shapespin=0x7f020087;
+        public static final int side_nav_bar=0x7f020088;
+        public static final int sign_in_button=0x7f020089;
     }
     public static final class id {
         public static final int about=0x7f10011d;

@@ -10,9 +10,9 @@
     </string-array>
     <string-array name="generators">
         <item>Add Product</item>
-        
-        
-        
+        <!--<item>GEO</item>-->
+        <!--<item>TEXT</item>-->
+        <!--<item>VCARD</item>-->
     </string-array>
     <string-array name="pref_auto_clipboard_entries">
         <item>On</item>
@@ -775,7 +775,7 @@
     <string name="error_not_in_database">Was not found in the history database</string>
     <string name="error_password_match">Password Does Not Matches</string>
     <string name="error_scan_first">Scan a QR-Code first</string>
-    <string name="error_text_first">First type in some Text</string>
+    <string name="error_text_first">Something went wrong. Please try again..</string>
     <string name="error_valid_email_password">Wrong Email or Password</string>
     <string name="exit_title_msg">Are you sure you want to exit?</string>
     <string name="forgotpassword">Forgot Password?</string>

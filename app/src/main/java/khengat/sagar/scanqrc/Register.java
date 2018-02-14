@@ -1,5 +1,6 @@
 package khengat.sagar.scanqrc;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,7 @@ import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 
 import khengat.sagar.scanqrc.model.User;
@@ -107,6 +109,7 @@ public class Register extends AppCompatActivity implements Spinner.OnItemSelecte
                 break;
 
             case R.id.appCompatTextViewLoginLink:
+                startActivity(new Intent(Register.this,LoginActivity.class));
                 finish();
                 break;
         }
@@ -142,13 +145,15 @@ public class Register extends AppCompatActivity implements Spinner.OnItemSelecte
             databaseHelper.addUser(user);
 
             // Snack Bar to show success message that record saved successfully
-            Snackbar.make(nestedScrollView, getString(R.string.success_message), Snackbar.LENGTH_LONG).show();
+            Toast.makeText(activity, getString(R.string.success_message), Toast.LENGTH_LONG).show();
             emptyInputEditText();
+            startActivity(new Intent(Register.this,LoginActivity.class));
+            finish();
 
 
         } else {
             // Snack Bar to show error message that record already exists
-            Snackbar.make(nestedScrollView, getString(R.string.error_email_exists), Snackbar.LENGTH_LONG).show();
+            Toast.makeText(activity, getString(R.string.error_email_exists), Toast.LENGTH_LONG).show();
         }
 
 

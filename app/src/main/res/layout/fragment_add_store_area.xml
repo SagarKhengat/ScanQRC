@@ -22,7 +22,7 @@
     <Spinner
         android:id="@+id/spinnerArea"
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="wrap_content"
         android:layout_weight="0.00" />
 
     <android.support.design.widget.TextInputLayout

@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     private DatabaseHandler mDatabaeHelper;
     private static final String STATE_QRCODE = MainActivity.class.getName();
     private static final String STATE_QRCODEFORMAT = "";
-    public static Store store;
+
 
     public TextView textViewName;
     public TextView textViewSize;
@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
     LayerDrawable icon;
     static BadgeView badge;
     Gson gson;
+    Store storeBarcode;
     /**
      * This method handles the main navigation
      */
@@ -154,6 +155,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        //Fetching the boolean value form sharedpreferences
+        SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        String sharedPreferencesString = sharedPreferences.getString(Config.STORE_SHARED_PREF, "");
+
+        storeBarcode = gson.fromJson(sharedPreferencesString, Store.class);
 
 
 
@@ -161,15 +167,9 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationViewHelper.disableShiftMode(action_navigation);
         action_navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        Intent intent = getIntent();
-        store = intent.getParcelableExtra("store");
 
-        SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
-        //Creating editor to store values to shared preferences
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        String saveStore = gson.toJson(store);
-        //Adding values to editor
-        editor.putString(Config.STORE_SHARED_PREF, saveStore).apply();
+
+
 
         //If the device were rotated then restore information
         if(savedInstanceState != null){
@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
                 String json = qrcode;
                 product = gson.fromJson(json, Product.class);
 
-                if(product.getStore().getStoreId()==store.getStoreId()  && product.getStore().getStoreName().equalsIgnoreCase(store.getStoreName())) {
+                if(product.getStore().getStoreId()==storeBarcode.getStoreId()  && product.getStore().getStoreName().equalsIgnoreCase(storeBarcode.getStoreName())) {
                     cardView.setVisibility(View.VISIBLE);
 
                     textViewName.setText(product.getProductName());
@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
         MenuItem itemCart = menu.findItem(R.id.cart);
 
          icon = (LayerDrawable) itemCart.getIcon();
-       int i =  mDatabaeHelper.fnGetCartCount(store);
+       int i =  mDatabaeHelper.fnGetCartCount(storeBarcode);
         setBadgeCount(activity, icon, String.valueOf(i));
         return true;
     }
@@ -247,7 +247,7 @@ public class MainActivity extends AppCompatActivity {
                 logout();
                 return true;
             case R.id.cart:
-                if(mDatabaeHelper.fnGetCartCount(store)!=0)
+                if(mDatabaeHelper.fnGetCartCount(storeBarcode)!=0)
                 {
                     Intent intent = new Intent(MainActivity.this,CartActivity.class);
                     startActivity(intent);
@@ -280,7 +280,7 @@ public class MainActivity extends AppCompatActivity {
                         String json = qrcode;
                         product = gson.fromJson(json, Product.class);
 
-                        if (product.getStore().getStoreId() == store.getStoreId() && product.getStore().getStoreName().equalsIgnoreCase(store.getStoreName())) {
+                        if (product.getStore().getStoreId() == storeBarcode.getStoreId() && product.getStore().getStoreName().equalsIgnoreCase(storeBarcode.getStoreName())) {
                             cardView.setVisibility(View.VISIBLE);
 
                             textViewName.setText(product.getProductName());
@@ -432,9 +432,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+                cart.setProductId(product.getProductId());
                 cart.setProductSize(product.getProductSize());
-                cart.setStore(store);
+                cart.setStore(storeBarcode);
                 cart.setProductUnit(product.getProductUnit());
                 cart.setProductBrand(product.getProductBrand());
                 cart.setProductName(product.getProductName());
@@ -446,7 +446,7 @@ public class MainActivity extends AppCompatActivity {
 
                 mDatabaeHelper.addToCart(cart);
 
-                int i =  mDatabaeHelper.fnGetCartCount(store);
+                int i =  mDatabaeHelper.fnGetCartCount(storeBarcode);
                 setBadgeCount(activity, icon, String.valueOf(i));
 
 

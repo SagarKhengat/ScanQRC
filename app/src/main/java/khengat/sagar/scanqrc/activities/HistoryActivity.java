@@ -46,7 +46,7 @@ import khengat.sagar.scanqrc.util.DatabaseHandler;
 import khengat.sagar.scanqrc.util.DatabaseHelper;
 import khengat.sagar.scanqrc.util.MyAdapterListener;
 
-import static khengat.sagar.scanqrc.activities.MainActivity.store;
+
 
 
 /**
@@ -57,7 +57,7 @@ import static khengat.sagar.scanqrc.activities.MainActivity.store;
 public class HistoryActivity extends AppCompatActivity {
 
     private  int userToken;
-    private List<Cart> cartList;
+    private List<History> cartList;
     private RecyclerView recyclerView;
     final Activity activity = this;
     private RecyclerView.LayoutManager layoutManager;
@@ -113,8 +113,9 @@ public class HistoryActivity extends AppCompatActivity {
 
             @Override
             public void imageViewOnClick(View v, int position) {
-              Cart p = cartList.get(position);
-                addCart(p);
+              History p = cartList.get(position);
+                Cart c = mDatabaeHelper.fnGetCartFromCartHistory(p);
+                addCart(c);
             }
         });
 
