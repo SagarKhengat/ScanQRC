@@ -1,147 +1,123 @@
 [
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_generate.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_generate.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history_details.xml",
-        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_history_details.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history_details.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_history_details.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_store_area.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\fragment_add_store_area.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_store_area.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\fragment_add_store_area.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_generate.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\content_generate.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_store_area.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\fragment_add_store_area.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store_listing.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_store_listing.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store_listing.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_store_listing.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\badge_cart.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\badge_cart.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
@@ -152,24 +128,28 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_action.xml"
     },
     {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_generate.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_generate.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history_details.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_history_details.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\badge_cart.xml",
@@ -180,56 +160,36 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_history.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\a90408cfe1c5ee69321eef3f6207701e192731fc\\output\\res\\layout\\zxing_barcode_scanner.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geo_generator.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_geo_generator.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_history.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
@@ -244,156 +204,156 @@
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_text_generator.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_store.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store_listing.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_store_listing.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_generate.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\content_generate.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_generate.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_barcode_generate.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\about.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_action.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\spinner.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\layout\\zxing_capture.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_text_generator.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_text_generator.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_text_generator.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_text_generator.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\about.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\about.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_generate.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_generate.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history_details.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_history_details.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\a90408cfe1c5ee69321eef3f6207701e192731fc\\output\\res\\layout\\zxing_barcode_scanner.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -404,84 +364,112 @@
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\single_checkout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_checkout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\single_checkout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history_details.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_history_details.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_history.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history_details.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_history_details.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\a90408cfe1c5ee69321eef3f6207701e192731fc\\output\\res\\layout\\zxing_capture.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
@@ -496,180 +484,184 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\spinner.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\layout\\zxing_capture.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_generate.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_barcode_generate.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_dialog.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_store_area.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\fragment_add_store_area.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\custom_dialog.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
-        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_dialog.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vcard_generator.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_vcard_generator.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\spinner.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_store.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\layout\\zxing_barcode_scanner.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_generate.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\content_generate.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store_listing.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_store_listing.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_store_area.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\fragment_add_store_area.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geo_generator.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_geo_generator.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_store.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geo_generator.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_geo_generator.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cart.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\custom_dialog.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_generate.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\content_generate.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_history.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\single_history.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vcard_generator.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_vcard_generator.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_bottom_navigation_item.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_generate.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_barcode_generate.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -680,20 +672,16 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\layout\\zxing_barcode_scanner.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_generate.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_barcode_generate.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
@@ -704,16 +692,24 @@
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store_listing.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_store_listing.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\layout\\zxing_capture.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vcard_generator.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_vcard_generator.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
@@ -728,12 +724,12 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
-        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -744,152 +740,160 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_checkout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\single_checkout.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_text_generator.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_text_generator.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geo_generator.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_geo_generator.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_action.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\a90408cfe1c5ee69321eef3f6207701e192731fc\\output\\res\\layout\\zxing_capture.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_text_generator.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_text_generator.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_history.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\single_history.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cart.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_cart.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vcard_generator.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_vcard_generator.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\spinner.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_history.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_generate.xml",
-        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\content_generate.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\about.xml"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vcard_generator.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_vcard_generator.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_generate.xml",
+        "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\content_generate.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\badge_cart.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\badge_cart.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_generate.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_barcode_generate.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_geo_generator.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_geo_generator.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner.xml",
@@ -904,19 +908,15 @@
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\c0e3893b948c28fb891192fd7fefd132cb6ad67b\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\d9172d487e0d583f558a38fcb59dd62c19d7ec84\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_generate.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_generate.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_store.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_history.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\layout\\single_history.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\layout\\activity_store.xml"
     }
 ]

@@ -18,13 +18,13 @@ public class History implements Parcelable {
 
     @DatabaseField(canBeNull = true)
 
-    private String productCartId;
+    private int productCartId;
     @DatabaseField(canBeNull = true)
 
     private String productUnit;
 
 
-    @DatabaseField(canBeNull = true,id = true)
+    @DatabaseField(canBeNull = true,generatedId = true)
 
     private int productId;
 
@@ -63,11 +63,11 @@ public class History implements Parcelable {
         this.productUnit = productUnit;
     }
 
-    public String getProductCartId() {
+    public int getProductCartId() {
         return productCartId;
     }
 
-    public void setProductCartId(String productCartId) {
+    public void setProductCartId(int productCartId) {
         this.productCartId = productCartId;
     }
     public int getProductQuantity() {
@@ -145,7 +145,7 @@ public class History implements Parcelable {
         dest.writeString(productBrand);
         dest.writeString(productDescription);
         dest.writeString(productUnit);
-        dest.writeString(productCartId);
+        dest.writeInt(productCartId);
         dest.writeValue(store);
     }
     public static final Parcelable.Creator<History> CREATOR = new Parcelable.Creator<History>() {
@@ -164,7 +164,7 @@ public class History implements Parcelable {
         productName = in.readString();
         store = (Store) in.readValue(Product.class.getClassLoader());
         productBrand =in.readString();
-        productCartId = in.readString();
+        productCartId = in.readInt();
         productDescription = in.readString();
         productQuantity = in.readInt();
         productSize = in.readString();

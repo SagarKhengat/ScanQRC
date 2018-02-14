@@ -1,14 +1,14 @@
 [
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "E:\\home\\sagar\\.android\\build-cache\\c866650ea6de11f6f9cbe33e765c86869e18e84d\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\252d5cba6a5b11427e90310fa0c154bd7071bcfa\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

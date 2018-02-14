@@ -192,7 +192,7 @@ public class CartActivity extends AppCompatActivity {
                         {
                             History history = new History();
                            Product product =  mDatabaeHelper.fnGetProductFromCart(cart);
-                            history.setProductId(product.getProductId());
+                            history.setProductCartId(product.getProductId());
                             history.setProductSize(product.getProductSize());
                             history.setStore(storeBarcode);
                             history.setProductUnit(product.getProductUnit());

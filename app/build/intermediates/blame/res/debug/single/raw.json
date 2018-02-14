@@ -4,28 +4,20 @@
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\raw\\zxing_beep.ogg"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copyright",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\raw\\copyright"
-    },
-    {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ormlite_config.txt",
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\raw\\ormlite_config.txt"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copyright",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\raw\\copyright"
-    },
-    {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
-        "source": "E:\\home\\sagar\\.android\\build-cache\\a90408cfe1c5ee69321eef3f6207701e192731fc\\output\\res\\raw\\zxing_beep.ogg"
+        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\raw\\zxing_beep.ogg"
     },
     {
         "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ormlite_config.txt",
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\raw\\ormlite_config.txt"
     },
     {
-        "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
-        "source": "C:\\Users\\Sagar Khengat\\.android\\build-cache\\ab0e0dc47233adb047ec63937717d2aa6108347a\\output\\res\\raw\\zxing_beep.ogg"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copyright",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\raw\\copyright"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copyright",
@@ -34,5 +26,13 @@
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ormlite_config.txt",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\raw\\ormlite_config.txt"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "E:\\home\\sagar\\.android\\build-cache\\a90408cfe1c5ee69321eef3f6207701e192731fc\\output\\res\\raw\\zxing_beep.ogg"
+    },
+    {
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copyright",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\raw\\copyright"
     }
 ]

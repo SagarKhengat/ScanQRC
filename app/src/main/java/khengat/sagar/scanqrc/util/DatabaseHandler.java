@@ -150,7 +150,7 @@ public class DatabaseHandler {
 	public void addUser(User user) {
 		try
 		{
-			userDao.createIfNotExists( user );
+			userDao.create( user );
 		} catch(OutOfMemoryError e) {
 			e.printStackTrace();
 			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
@@ -262,7 +262,7 @@ public class DatabaseHandler {
 	public void addStore(Store store) {
 		try
 		{
-			storeDao.createIfNotExists( store );
+			storeDao.create( store );
 		} catch(OutOfMemoryError e) {
 			e.printStackTrace();
 			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
@@ -275,7 +275,7 @@ public class DatabaseHandler {
 	public void addArea(Area area) {
 		try
 		{
-			areaDao.createIfNotExists( area );
+			areaDao.create( area );
 		} catch(OutOfMemoryError e) {
 			e.printStackTrace();
 			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
@@ -320,7 +320,7 @@ public class DatabaseHandler {
 	public void addProduct(Product product) {
 		try
 		{
-			productDao.createIfNotExists( product );
+			productDao.create( product );
 		} catch(OutOfMemoryError e) {
 			e.printStackTrace();
 			Toast.makeText( context, "Problem in memory allocation. Please free some memory space and try again.", Toast.LENGTH_LONG ).show();
@@ -332,7 +332,7 @@ public class DatabaseHandler {
 	public void addToCart(Cart product) {
 		try
 		{
-			cartDao.createIfNotExists( product );
+			cartDao.create( product );
 			Toast.makeText( context, "Product Added in Cart Successfully.", Toast.LENGTH_LONG ).show();
 		} catch(OutOfMemoryError e) {
 			e.printStackTrace();
@@ -575,7 +575,7 @@ public class DatabaseHandler {
 
 			for (Product product : mListAllStores)
 			{
-					if(product.getProductId() == cart.getProductId())
+					if(product.getProductId() == cart.getProductCartId())
 					{
 						return product;
 					}
@@ -614,7 +614,7 @@ public class DatabaseHandler {
 
 			for (Cart product : mListAllStores)
 			{
-				if(product.getProductId() == cart.getProductId())
+				if(product.getProductCartId() == cart.getProductCartId())
 				{
 					return product;
 				}

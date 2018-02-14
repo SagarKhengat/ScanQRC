@@ -36,6 +36,9 @@ import com.journeyapps.barcodescanner.BarcodeEncoder;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 import khengat.sagar.scanqrc.Constants.Config;
@@ -82,6 +85,7 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
     FloatingActionButton fabShare;
     Gson gson;
     InputValidation inputValidation ;
+    int RANGE = 999;
     private static final String STATE_TEXT = MainActivity.class.getName();
 
     @Override
@@ -215,10 +219,10 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
                     product.setProductSize(textInputEditTextProductSize.getText().toString().trim());
                 }
                 product.setStore(storeBarcode);
-
+                product.setProductId(getUniqueId());
                 text2Barcode = gson.toJson(product);
 
-                if(text2Barcode.equals("")){
+                if(textInputEditTextProductName.getText().toString().equals("")){
                     Toast.makeText(getApplicationContext(), getResources().getText(R.string.error_text_first), Toast.LENGTH_SHORT).show();
                 } else {
                     multiFormatWriter = new MultiFormatWriter();
@@ -335,7 +339,15 @@ public class BarcodeGenerateActivity extends AppCompatActivity implements Adapte
         }
     }
 
-
+   public int getUniqueId()
+   {
+       int v = 0;
+       final List<Integer> sack = new ArrayList<>(RANGE);
+       for (int i = 0; i < RANGE; i++) sack.add(i);
+        Collections.shuffle(sack);
+       v = sack.get(12);
+       return v;
+   }
 
     /**
      * Generates the chosen format from the spinner menu

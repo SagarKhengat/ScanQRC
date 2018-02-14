@@ -8,12 +8,12 @@
         "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\xml\\pref_headers.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_scanner.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_scanner.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_headers.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\file_paths.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_scanner.xml",
@@ -24,15 +24,15 @@
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_headers.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_headers.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
         "merged": "E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
         "source": "E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\file_paths.xml"
     },
     {
-        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
-        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\app\\src\\main\\res\\xml\\file_paths.xml"
+        "merged": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_scanner.xml",
+        "source": "E:\\home\\sagar\\AndroidStudioProjects\\SecScanQR-master\\E:\\Prog\\Android\\ScanQRC\\app\\src\\main\\res\\xml\\pref_scanner.xml"
     }
 ]

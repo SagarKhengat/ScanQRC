@@ -114,8 +114,17 @@ public class HistoryActivity extends AppCompatActivity {
             @Override
             public void imageViewOnClick(View v, int position) {
               History p = cartList.get(position);
-                Cart c = mDatabaeHelper.fnGetCartFromCartHistory(p);
-                addCart(c);
+                Cart cart =new Cart();
+                cart.setProductCartId(p.getProductCartId());
+                cart.setProductSize(p.getProductSize());
+                cart.setStore(storeBarcode);
+                cart.setProductUnit(p.getProductUnit());
+                cart.setProductBrand(p.getProductBrand());
+                cart.setProductName(p.getProductName());
+                cart.setProductDescription(p.getProductDescription());
+                cart.setProductQuantity(p.getProductQuantity());
+                cart.setProductTotalPrice(p.getProductTotalPrice());
+                addCart(cart);
             }
         });
 

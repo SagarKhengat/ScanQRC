@@ -24,7 +24,7 @@ public class Product implements Parcelable{
     private String productUnit;
 
 
-    @DatabaseField(canBeNull = true,generatedId = true)
+    @DatabaseField(canBeNull = true,id = true)
 
     private int productId;
 

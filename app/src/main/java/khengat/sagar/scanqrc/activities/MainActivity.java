@@ -432,7 +432,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                cart.setProductId(product.getProductId());
+                cart.setProductCartId(product.getProductId());
                 cart.setProductSize(product.getProductSize());
                 cart.setStore(storeBarcode);
                 cart.setProductUnit(product.getProductUnit());
