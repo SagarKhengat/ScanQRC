@@ -426,7 +426,7 @@ public class MainActivity extends AppCompatActivity {
                 double multiQ = value * product.getProductTotalPrice();
 
                 product.setProductQuantity(value);
-                product.setProductTotalPrice(multiQ);
+
 
 
 

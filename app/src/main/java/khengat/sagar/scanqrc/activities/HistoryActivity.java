@@ -155,10 +155,10 @@ public class HistoryActivity extends AppCompatActivity {
 
 
 
-                double multiQ = value * cart.getProductTotalPrice();
+
 
                 cart.setProductQuantity(value);
-                cart.setProductTotalPrice(multiQ);
+
 
 
 
