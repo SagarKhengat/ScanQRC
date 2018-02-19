@@ -145,7 +145,6 @@ public class Register extends AppCompatActivity implements Spinner.OnItemSelecte
             databaseHelper.addUser(user);
 
             // Snack Bar to show success message that record saved successfully
-            Toast.makeText(activity, getString(R.string.success_message), Toast.LENGTH_LONG).show();
             emptyInputEditText();
             startActivity(new Intent(Register.this,LoginActivity.class));
             finish();

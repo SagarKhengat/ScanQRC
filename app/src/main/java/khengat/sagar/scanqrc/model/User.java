@@ -7,11 +7,11 @@ import android.os.Parcelable;
 import com.j256.ormlite.field.DatabaseField;
 
 public class User implements Parcelable {
-    @DatabaseField(canBeNull = true,id = true)
+    @DatabaseField(canBeNull = true,generatedId = true)
     private int id;
     @DatabaseField(canBeNull = true)
     private String name;
-    @DatabaseField(canBeNull = true)
+    @DatabaseField(canBeNull = true,unique = true)
     private String email;
     @DatabaseField(canBeNull = true)
     private String password;
