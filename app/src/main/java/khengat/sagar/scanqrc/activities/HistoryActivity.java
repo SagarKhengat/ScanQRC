@@ -20,6 +20,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -77,12 +79,13 @@ public class HistoryActivity extends AppCompatActivity {
         //Fetching the boolean value form sharedpreferences
         SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
         String json = sharedPreferences.getString(Config.STORE_SHARED_PREF, "");
-
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
         storeBarcode = gson.fromJson(json, Store.class);
 
         cartList = new ArrayList<>();
         mDatabaeHelper = new DatabaseHandler(this);
-        ActionBar actionBar = getSupportActionBar();
+
 
         fnOrderHistory();
     }
@@ -91,50 +94,81 @@ public class HistoryActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
-
+            case android.R.id.home:
+                onBackPressed();
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
-
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(HistoryActivity.this,MainActivity.class);
+        startActivity(intent);
+        finish();
+        super.onBackPressed();
+    }
     private void fnOrderHistory() {
 
 
         cartList = mDatabaeHelper.fnGetAllHistory(storeBarcode);
 
 
+        if (cartList.isEmpty()) {
+//LinearLayOut Setup
+            LinearLayout linearLayout= new LinearLayout(this);
+            linearLayout.setOrientation(LinearLayout.VERTICAL);
+
+            linearLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.MATCH_PARENT));
+
+//ImageView Setup
+            ImageView imageView = new ImageView(this);
+
+//setting image resource
+            imageView.setImageResource(R.drawable.empty_cart);
+
+//setting image position
+            imageView.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT));
+
+//adding view to layout
+            linearLayout.addView(imageView);
+//make visible to program
+            setContentView(linearLayout);
+        }
 //
+        else {
+
+            adapter = new CustomHistory(cartList, activity, new MyAdapterListener() {
+                @Override
+                public void buttonViewOnClick(View v, int position) {
+
+                }
+
+                @Override
+                public void imageViewOnClick(View v, int position) {
+                    History p = cartList.get(position);
+                    Cart cart = new Cart();
+                    cart.setProductCartId(p.getProductCartId());
+                    cart.setProductSize(p.getProductSize());
+                    cart.setStore(storeBarcode);
+                    cart.setProductUnit(p.getProductUnit());
+                    cart.setProductBrand(p.getProductBrand());
+                    cart.setProductName(p.getProductName());
+                    cart.setProductDescription(p.getProductDescription());
+                    cart.setProductQuantity(p.getProductQuantity());
+                    cart.setProductTotalPrice(p.getProductTotalPrice());
+                    addCart(cart);
+                }
+            });
+
+            //Adding adapter to recyclerview
+            recyclerView.setAdapter(adapter);
 
 
-        adapter = new CustomHistory(cartList, activity, new MyAdapterListener() {
-            @Override
-            public void buttonViewOnClick(View v, int position) {
-
-            }
-
-            @Override
-            public void imageViewOnClick(View v, int position) {
-              History p = cartList.get(position);
-                Cart cart =new Cart();
-                cart.setProductCartId(p.getProductCartId());
-                cart.setProductSize(p.getProductSize());
-                cart.setStore(storeBarcode);
-                cart.setProductUnit(p.getProductUnit());
-                cart.setProductBrand(p.getProductBrand());
-                cart.setProductName(p.getProductName());
-                cart.setProductDescription(p.getProductDescription());
-                cart.setProductQuantity(p.getProductQuantity());
-                cart.setProductTotalPrice(p.getProductTotalPrice());
-                addCart(cart);
-            }
-        });
-
-        //Adding adapter to recyclerview
-        recyclerView.setAdapter(adapter);
-
+        }
 
     }
-
-
 
     public void addCart(final Cart cart )
     {

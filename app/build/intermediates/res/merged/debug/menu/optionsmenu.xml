@@ -3,9 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
     <item android:id="@+id/settings"
-        android:title="@string/settings_settings"></item>
-    <item android:id="@+id/about"
-        android:title="@string/settings_menu_about"></item>
+        android:title="Update Password"></item>
     <item android:id="@+id/logout"
         android:title="@string/logout"></item>
     <item

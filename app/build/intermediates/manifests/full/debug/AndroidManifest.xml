@@ -57,14 +57,6 @@
             android:name="khengat.sagar.scanqrc.activities.HistoryDetailsActivity"
             android:label="@string/activity_history_details" />
         <activity
-            android:name="khengat.sagar.scanqrc.activities.SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName="khengat.sagar.scanqrc.activities.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="khengat.sagar.scanqrc.activities.MainActivity" />
-        </activity>
-        <activity
             android:name="khengat.sagar.scanqrc.activities.generator.GeoGeneratorActivity"
             android:label="@string/title_activity_geo_generator"
             android:parentActivityName="khengat.sagar.scanqrc.activities.generator.GenerateActivity"
@@ -127,6 +119,7 @@
         <activity android:name="khengat.sagar.scanqrc.LoginActivity" />
         <activity android:name="khengat.sagar.scanqrc.StoreListing" />
         <activity android:name="khengat.sagar.scanqrc.activities.CartActivity" />
+        <activity android:name="khengat.sagar.scanqrc.activities.ChangePassword" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

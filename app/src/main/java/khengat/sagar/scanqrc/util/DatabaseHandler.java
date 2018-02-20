@@ -677,4 +677,28 @@ public class DatabaseHandler {
 	}
 
 
+	public void updateUserPassword(String Email, String Password)
+	{
+		try
+		{
+			UpdateBuilder<User, Integer> updateBuilder = userDao.updateBuilder();
+			updateBuilder.where().eq("email",Email);
+			updateBuilder.updateColumnValue("password",Password);
+			updateBuilder.update();
+			Toast.makeText( context, "Password changed Successfully...", Toast.LENGTH_LONG ).show();
+		} catch(OutOfMemoryError e)
+		{
+			e.printStackTrace();
+			Toast.makeText( context, "Problem in updating password try again.", Toast.LENGTH_LONG ).show();
+
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			Toast.makeText( context, "Problem in updating password try again.", Toast.LENGTH_LONG ).show();
+
+		}
+	}
+
+
 }

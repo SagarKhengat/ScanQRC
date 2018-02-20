@@ -14,9 +14,12 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -106,50 +109,69 @@ public class CartActivity extends AppCompatActivity {
 
 
 
-    private void fnOrderHistory()
-    {
+    private void fnOrderHistory() {
         int quantity = 0;
+        if (productList.isEmpty()) {
+            //LinearLayOut Setup
+            LinearLayout linearLayout= new LinearLayout(this);
+            linearLayout.setOrientation(LinearLayout.VERTICAL);
 
+            linearLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.MATCH_PARENT));
 
+//ImageView Setup
+            ImageView imageView = new ImageView(this);
+
+//setting image resource
+            imageView.setImageResource(R.drawable.empty_cart);
+
+//setting image position
+            imageView.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT));
+
+//adding view to layout
+            linearLayout.addView(imageView);
+//make visible to program
+            setContentView(linearLayout);
+
+        } else {
             for (Cart cart : productList) {
                 double d = cart.getProductTotalPrice();
-                quantity =cart.getProductQuantity();
+                quantity = cart.getProductQuantity();
                 double psp = quantity * d;
 
-                            double multiQ = quantity * d;
-                            alTotalAmount.add(multiQ);
+                double multiQ = quantity * d;
+                alTotalAmount.add(multiQ);
 
             }
 
-                    double sum = 0;
-                    for(int i = 0; i < alTotalAmount.size(); i++)
-                    {
-                        sum = sum + alTotalAmount.get(i);
-                    }
-                    String stringPrice = Double.toString(sum);
-                    totalAmount.setText(stringPrice);
+            double sum = 0;
+            for (int i = 0; i < alTotalAmount.size(); i++) {
+                sum = sum + alTotalAmount.get(i);
+            }
+            String stringPrice = Double.toString(sum);
+            totalAmount.setText(stringPrice);
 //
-                    adapter = new CustomcheckOut(productList, CartActivity.this, new MyAdapterListener() {
-                        @Override
-                        public void buttonViewOnClick(View v, int position) {
+            adapter = new CustomcheckOut(productList, CartActivity.this, new MyAdapterListener() {
+                @Override
+                public void buttonViewOnClick(View v, int position) {
 
-                        }
+                }
 
-                        @Override
-                        public void imageViewOnClick(View v, int position) {
-                            Cart p = productList.get(position);
+                @Override
+                public void imageViewOnClick(View v, int position) {
+                    Cart p = productList.get(position);
 
-                            fnDeleteOrder(p);
-                        }
-                    });
+                    fnDeleteOrder(p);
+                }
+            });
 
-                    //Adding adapter to recyclerview
-                    recyclerView.setAdapter(adapter);
+            //Adding adapter to recyclerview
+            recyclerView.setAdapter(adapter);
 
 
-
+        }
     }
-
 
     private void fnDeleteOrder(Cart id)
     {
@@ -166,6 +188,16 @@ public class CartActivity extends AppCompatActivity {
 
 
 
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

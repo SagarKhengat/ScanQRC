@@ -1,4 +1,4 @@
-#Mon Feb 19 12:04:12 IST 2018
+#Tue Feb 20 14:32:41 IST 2018
 base.0=/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

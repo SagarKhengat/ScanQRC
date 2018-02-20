@@ -80,6 +80,10 @@
         "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/drawable/empty_cart.png",
+        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/drawable/empty_cart.png"
+    },
+    {
         "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/drawable/abc_vector_test.xml"
     },

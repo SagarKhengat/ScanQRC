@@ -235,28 +235,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
-            case R.id.about:
-                AboutDialog aboutDialog = new AboutDialog(this);
-                aboutDialog.setTitle(R.string.about_dialog);
-                aboutDialog.show();
-                return true;
+
             case R.id.settings:
-                startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                startActivity(new Intent(MainActivity.this, ChangePassword.class));
                 return true;
             case R.id.logout:
                 logout();
                 return true;
             case R.id.cart:
-                if(mDatabaeHelper.fnGetCartCount(storeBarcode)!=0)
-                {
+
                     Intent intent = new Intent(MainActivity.this,CartActivity.class);
                     startActivity(intent);
                     finish();
-                }
-                else
-                {
-                    Toast.makeText(activity, "Cart Empty..", Toast.LENGTH_SHORT).show();
-                }
+
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

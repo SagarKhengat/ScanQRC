@@ -161,6 +161,8 @@
     <string name="text_not_member">No account yet? Create one</string>
     <string name="text_already_member">Already a member? Login</string>
     <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_email_not_exists">Email Not Exists</string>
+    <string name="error_password_not_exists">Wrong password entered.Please try again.</string>
     <string name="error_password_match">Password Does Not Matches</string>
     <string name="error_valid_email_password">Wrong Email or Password</string>
     <string name="action_settings">Settings</string>

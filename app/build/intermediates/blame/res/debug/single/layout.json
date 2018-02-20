@@ -128,6 +128,10 @@
         "source": "/home/sagar/.android/build-cache/d9172d487e0d583f558a38fcb59dd62c19d7ec84/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout/activity_change_password.xml",
+        "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/layout/activity_change_password.xml"
+    },
+    {
         "merged": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/build/intermediates/res/merged/debug/layout/activity_geo_generator.xml",
         "source": "/home/sagar/AndroidStudioProjects/SecScanQR-master/app/src/main/res/layout/activity_geo_generator.xml"
     },

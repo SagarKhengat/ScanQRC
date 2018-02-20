@@ -26,14 +26,6 @@
             android:name=".activities.HistoryDetailsActivity"
             android:label="@string/activity_history_details" />
         <activity
-            android:name=".activities.SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName=".activities.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="khengat.sagar.scanqrc.activities.MainActivity" />
-        </activity>
-        <activity
             android:name=".activities.generator.GeoGeneratorActivity"
             android:label="@string/title_activity_geo_generator"
             android:parentActivityName=".activities.generator.GenerateActivity"
@@ -95,7 +87,8 @@
         <activity android:name=".Register" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".StoreListing" />
-        <activity android:name=".activities.CartActivity"></activity>
+        <activity android:name=".activities.CartActivity" />
+        <activity android:name=".activities.ChangePassword"></activity>
     </application>
 
 </manifest>
