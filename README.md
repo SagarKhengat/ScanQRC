@@ -1,2 +1,2 @@
 # ScanQRC
-first commit
+Scan And shop solution to your supermarket
